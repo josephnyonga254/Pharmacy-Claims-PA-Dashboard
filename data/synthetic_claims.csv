@@ -1,0 +1,1001 @@
+date,drug_class,payer,rejection_code,outcome,days_to_resolve,copay_bucket,store_workload_proxy,touches_proxy
+2024-01-01,Dermatology,Medicare,PA - PA Required,Abandoned,11,$51-100,12.5,1
+2024-01-01,Antidiabetic,Aetna,76 - Plan Limits Exceeded,Reversed,1,$51-100,16.1,3
+2024-01-02,Analgesic,United,76 - Plan Limits Exceeded,Filled,2,$51-100,9.3,2
+2024-01-02,Antibiotic,BCBS,76 - Plan Limits Exceeded,Reversed,3,$26-50,13.3,2
+2024-01-03,Dermatology,United,75 - Prior Auth Required,Abandoned,9,$11-25,15.2,2
+2024-01-03,Asthma,Aetna,79 - Refill Too Soon,Reversed,2,$0-10,10.8,4
+2024-01-03,Dermatology,Medicaid,MR - Missing/Invalid Data,Filled,2,>$100,9.0,3
+2024-01-03,Asthma,Cigna,79 - Refill Too Soon,Filled,1,$26-50,8.2,3
+2024-01-04,Dermatology,Medicare,79 - Refill Too Soon,Filled,1,$26-50,8.9,2
+2024-01-05,Statin,Other,75 - Prior Auth Required,Denied,12,>$100,17.0,2
+2024-01-05,Oncology,United,70 - Product/Service Not Covered,Denied,4,$26-50,7.3,3
+2024-01-05,Analgesic,Medicare,MR - Missing/Invalid Data,Reversed,2,$26-50,17.1,4
+2024-01-05,Antidiabetic,Medicaid,76 - Plan Limits Exceeded,Abandoned,1,>$100,10.6,1
+2024-01-05,Analgesic,United,PA - PA Required,Approved,5,$51-100,18.2,3
+2024-01-06,Antibiotic,United,75 - Prior Auth Required,Approved,2,$26-50,14.3,2
+2024-01-07,Statin,Aetna,MR - Missing/Invalid Data,Abandoned,2,$11-25,7.3,2
+2024-01-07,Antidiabetic,Cigna,MR - Missing/Invalid Data,Abandoned,3,$26-50,6.1,1
+2024-01-08,Analgesic,Humana,79 - Refill Too Soon,Reversed,1,$26-50,8.7,3
+2024-01-08,Asthma,Humana,70 - Product/Service Not Covered,Denied,1,$51-100,10.1,4
+2024-01-09,Dermatology,Medicare,PA - PA Required,Abandoned,3,>$100,9.1,2
+2024-01-09,Statin,United,PA - PA Required,Denied,8,>$100,11.6,3
+2024-01-09,Antibiotic,Medicaid,79 - Refill Too Soon,Filled,0,$11-25,13.4,3
+2024-01-10,Antidepressant,Medicaid,75 - Prior Auth Required,Approved,10,$11-25,14.9,2
+2024-01-10,Antibiotic,Medicare,01 - No Coverage,Denied,3,$11-25,18.6,3
+2024-01-11,Antidepressant,United,PA - PA Required,Denied,13,>$100,18.6,2
+2024-01-11,Asthma,Medicare,01 - No Coverage,Cash,2,$26-50,15.7,2
+2024-01-12,Asthma,BCBS,PA - PA Required,Denied,11,$0-10,13.7,3
+2024-01-12,Analgesic,United,79 - Refill Too Soon,Reversed,0,$0-10,11.7,3
+2024-01-12,Antibiotic,Humana,01 - No Coverage,Denied,3,$11-25,12.0,2
+2024-01-13,GI,Medicaid,01 - No Coverage,Denied,0,$26-50,5.9,4
+2024-01-13,Asthma,Humana,76 - Plan Limits Exceeded,Filled,0,$26-50,15.9,1
+2024-01-14,Antidiabetic,Medicare,79 - Refill Too Soon,Reversed,0,$11-25,9.9,3
+2024-01-14,Antidepressant,Medicaid,76 - Plan Limits Exceeded,Abandoned,1,$26-50,14.9,2
+2024-01-14,Antidepressant,Humana,79 - Refill Too Soon,Abandoned,1,$0-10,16.9,1
+2024-01-14,Statin,Other,MR - Missing/Invalid Data,Reversed,3,$51-100,15.1,2
+2024-01-15,GI,Humana,76 - Plan Limits Exceeded,Filled,0,$26-50,17.4,1
+2024-01-16,Antidiabetic,Humana,75 - Prior Auth Required,Approved,4,$11-25,13.3,3
+2024-01-16,Antidepressant,Medicare,70 - Product/Service Not Covered,Denied,4,$26-50,7.2,2
+2024-01-16,Dermatology,BCBS,70 - Product/Service Not Covered,Denied,3,$26-50,13.2,2
+2024-01-17,GI,United,MR - Missing/Invalid Data,Abandoned,2,$11-25,13.9,2
+2024-01-17,GI,Cigna,70 - Product/Service Not Covered,Denied,3,$0-10,17.1,4
+2024-01-17,Analgesic,Humana,88 - DUR Reject,Filled,3,$26-50,13.3,2
+2024-01-17,Antidiabetic,Medicaid,76 - Plan Limits Exceeded,Reversed,0,$26-50,1.0,3
+2024-01-17,GI,Other,79 - Refill Too Soon,Reversed,1,$11-25,13.0,2
+2024-01-18,Antihypertensive,Cigna,70 - Product/Service Not Covered,Cash,2,$11-25,16.3,3
+2024-01-18,GI,Humana,MR - Missing/Invalid Data,Filled,3,$0-10,15.0,2
+2024-01-18,Analgesic,Aetna,75 - Prior Auth Required,Abandoned,3,$11-25,9.8,2
+2024-01-18,Antibiotic,Other,PA - PA Required,Approved,9,>$100,21.1,1
+2024-01-18,Asthma,Medicaid,01 - No Coverage,Cash,1,$0-10,12.7,2
+2024-01-19,Dermatology,Medicare,70 - Product/Service Not Covered,Denied,2,$11-25,18.8,2
+2024-01-19,Dermatology,Aetna,01 - No Coverage,Cash,4,$26-50,16.0,3
+2024-01-20,Oncology,Humana,70 - Product/Service Not Covered,Abandoned,2,$11-25,17.2,1
+2024-01-20,Antidiabetic,Medicare,75 - Prior Auth Required,Denied,8,$26-50,8.1,4
+2024-01-20,Analgesic,Other,MR - Missing/Invalid Data,Filled,3,$11-25,13.6,2
+2024-01-20,Antibiotic,BCBS,88 - DUR Reject,Filled,2,$11-25,3.9,3
+2024-01-20,GI,Medicare,79 - Refill Too Soon,Reversed,1,$11-25,13.7,2
+2024-01-20,Oncology,Medicare,88 - DUR Reject,Abandoned,2,$0-10,11.2,2
+2024-01-21,Statin,Medicaid,70 - Product/Service Not Covered,Cash,2,$11-25,17.9,1
+2024-01-21,Asthma,BCBS,88 - DUR Reject,Filled,2,$0-10,16.3,2
+2024-01-21,Dermatology,Medicare,76 - Plan Limits Exceeded,Reversed,0,$0-10,17.0,3
+2024-01-21,Antihypertensive,Cigna,PA - PA Required,Denied,8,$51-100,10.6,2
+2024-01-21,Dermatology,United,79 - Refill Too Soon,Reversed,1,$11-25,4.9,2
+2024-01-22,Antibiotic,Cigna,79 - Refill Too Soon,Filled,2,$11-25,13.3,3
+2024-01-23,Asthma,Medicaid,70 - Product/Service Not Covered,Denied,0,$11-25,12.0,4
+2024-01-23,Dermatology,Medicare,70 - Product/Service Not Covered,Abandoned,3,$11-25,14.9,1
+2024-01-23,Antihypertensive,Other,01 - No Coverage,Abandoned,2,>$100,10.3,2
+2024-01-24,Antibiotic,BCBS,MR - Missing/Invalid Data,Filled,3,$0-10,12.4,1
+2024-01-24,Antibiotic,United,PA - PA Required,Denied,10,$11-25,8.2,3
+2024-01-24,Antidiabetic,Other,79 - Refill Too Soon,Abandoned,0,$11-25,3.8,1
+2024-01-24,Dermatology,BCBS,01 - No Coverage,Abandoned,4,$26-50,13.1,1
+2024-01-24,Oncology,BCBS,MR - Missing/Invalid Data,Abandoned,0,$26-50,16.0,2
+2024-01-25,Asthma,Other,PA - PA Required,Abandoned,8,$11-25,13.9,2
+2024-01-25,Antidiabetic,Medicare,76 - Plan Limits Exceeded,Filled,2,$11-25,15.5,3
+2024-01-25,Antihypertensive,Medicaid,70 - Product/Service Not Covered,Abandoned,4,>$100,16.6,2
+2024-01-25,Antibiotic,Medicaid,01 - No Coverage,Denied,1,$0-10,12.1,4
+2024-01-26,Dermatology,Aetna,01 - No Coverage,Abandoned,1,$0-10,9.2,2
+2024-01-26,GI,Other,76 - Plan Limits Exceeded,Abandoned,1,$0-10,10.3,1
+2024-01-26,Antidiabetic,Medicare,79 - Refill Too Soon,Reversed,0,$26-50,12.3,4
+2024-01-27,GI,Other,70 - Product/Service Not Covered,Cash,4,$51-100,6.6,1
+2024-01-28,Antihypertensive,United,01 - No Coverage,Denied,4,$51-100,14.2,4
+2024-01-28,Antihypertensive,BCBS,88 - DUR Reject,Reversed,1,>$100,10.9,3
+2024-01-28,Antidiabetic,Medicaid,75 - Prior Auth Required,Approved,10,$51-100,7.2,3
+2024-01-29,Statin,Aetna,PA - PA Required,Approved,3,$11-25,19.7,2
+2024-01-29,Antidepressant,Cigna,75 - Prior Auth Required,Approved,2,$11-25,10.7,1
+2024-01-29,Statin,BCBS,PA - PA Required,Approved,6,$26-50,12.4,1
+2024-01-29,Analgesic,Medicare,79 - Refill Too Soon,Reversed,0,$51-100,8.5,3
+2024-01-29,Dermatology,BCBS,88 - DUR Reject,Reversed,0,$11-25,13.7,4
+2024-01-29,Oncology,Medicaid,MR - Missing/Invalid Data,Filled,3,$11-25,13.1,1
+2024-01-29,Analgesic,Medicare,79 - Refill Too Soon,Filled,2,$0-10,14.4,3
+2024-01-30,GI,BCBS,88 - DUR Reject,Reversed,2,$0-10,13.0,2
+2024-01-30,Dermatology,BCBS,75 - Prior Auth Required,Abandoned,13,$26-50,9.8,2
+2024-01-31,Antihypertensive,Medicare,79 - Refill Too Soon,Reversed,1,$11-25,12.2,4
+2024-01-31,GI,Medicaid,MR - Missing/Invalid Data,Filled,3,$51-100,10.1,3
+2024-01-31,Antibiotic,United,88 - DUR Reject,Abandoned,0,$51-100,18.5,2
+2024-01-31,Antihypertensive,Cigna,75 - Prior Auth Required,Approved,14,$26-50,6.9,2
+2024-01-31,Antibiotic,Medicaid,MR - Missing/Invalid Data,Reversed,0,$0-10,13.2,4
+2024-02-01,Analgesic,Humana,PA - PA Required,Approved,9,$0-10,16.4,1
+2024-02-01,Antibiotic,Aetna,79 - Refill Too Soon,Reversed,2,$26-50,20.8,4
+2024-02-03,Antidepressant,Cigna,88 - DUR Reject,Filled,2,$26-50,13.8,3
+2024-02-03,Analgesic,Aetna,PA - PA Required,Denied,11,$11-25,13.7,2
+2024-02-03,Antidepressant,Humana,75 - Prior Auth Required,Approved,8,$0-10,3.6,2
+2024-02-03,Oncology,Aetna,75 - Prior Auth Required,Approved,2,$11-25,17.8,1
+2024-02-03,Analgesic,Medicaid,79 - Refill Too Soon,Abandoned,1,$11-25,12.2,2
+2024-02-04,Asthma,Cigna,70 - Product/Service Not Covered,Denied,2,$11-25,9.6,2
+2024-02-04,Antidepressant,Aetna,MR - Missing/Invalid Data,Reversed,3,$26-50,11.8,4
+2024-02-05,Statin,Medicaid,70 - Product/Service Not Covered,Denied,4,$26-50,3.0,4
+2024-02-05,Dermatology,Humana,88 - DUR Reject,Abandoned,1,$11-25,17.2,1
+2024-02-05,Asthma,Other,79 - Refill Too Soon,Reversed,1,$26-50,18.9,4
+2024-02-05,Oncology,BCBS,PA - PA Required,Approved,3,$26-50,11.9,1
+2024-02-05,Statin,Aetna,MR - Missing/Invalid Data,Filled,1,$0-10,14.3,1
+2024-02-06,Statin,BCBS,PA - PA Required,Denied,12,$51-100,12.6,2
+2024-02-06,Oncology,Humana,76 - Plan Limits Exceeded,Abandoned,3,$26-50,8.1,2
+2024-02-06,Statin,Other,88 - DUR Reject,Filled,1,$26-50,7.5,2
+2024-02-08,Antihypertensive,Other,76 - Plan Limits Exceeded,Reversed,3,$26-50,16.2,4
+2024-02-08,Antibiotic,Aetna,PA - PA Required,Approved,14,$26-50,6.4,1
+2024-02-08,Statin,Humana,70 - Product/Service Not Covered,Denied,0,$0-10,11.2,4
+2024-02-09,Statin,Medicaid,01 - No Coverage,Denied,0,$51-100,14.8,4
+2024-02-09,Dermatology,BCBS,MR - Missing/Invalid Data,Abandoned,0,$11-25,7.7,2
+2024-02-09,Antidiabetic,Medicaid,75 - Prior Auth Required,Approved,5,$26-50,10.5,3
+2024-02-10,Dermatology,Humana,01 - No Coverage,Denied,2,$11-25,7.0,4
+2024-02-10,Oncology,Aetna,75 - Prior Auth Required,Denied,8,$51-100,10.8,4
+2024-02-10,GI,Aetna,70 - Product/Service Not Covered,Cash,4,$26-50,13.2,1
+2024-02-11,Antihypertensive,United,70 - Product/Service Not Covered,Cash,1,$0-10,15.6,2
+2024-02-11,GI,Aetna,01 - No Coverage,Cash,4,$11-25,16.9,1
+2024-02-11,Oncology,Other,PA - PA Required,Abandoned,7,$26-50,17.3,1
+2024-02-11,Dermatology,Aetna,79 - Refill Too Soon,Filled,0,$51-100,12.7,2
+2024-02-12,Oncology,Aetna,88 - DUR Reject,Filled,3,$26-50,12.3,1
+2024-02-13,Dermatology,United,79 - Refill Too Soon,Filled,1,$26-50,4.9,3
+2024-02-13,Antidiabetic,United,75 - Prior Auth Required,Approved,14,$11-25,12.3,2
+2024-02-13,Analgesic,Medicaid,PA - PA Required,Approved,12,$26-50,15.9,2
+2024-02-14,Asthma,Other,01 - No Coverage,Denied,3,$51-100,9.6,3
+2024-02-14,Dermatology,Medicare,70 - Product/Service Not Covered,Denied,4,$26-50,11.0,2
+2024-02-14,Antihypertensive,United,79 - Refill Too Soon,Reversed,0,$26-50,10.6,2
+2024-02-16,Statin,Aetna,79 - Refill Too Soon,Reversed,0,$51-100,22.4,2
+2024-02-16,Antidiabetic,Cigna,76 - Plan Limits Exceeded,Reversed,2,$51-100,19.4,4
+2024-02-16,Dermatology,Cigna,PA - PA Required,Approved,6,$26-50,6.9,2
+2024-02-17,Dermatology,Humana,79 - Refill Too Soon,Reversed,2,$26-50,13.8,4
+2024-02-18,Antihypertensive,Medicare,01 - No Coverage,Abandoned,1,$26-50,19.9,1
+2024-02-20,Oncology,Medicare,01 - No Coverage,Denied,2,$11-25,3.8,3
+2024-02-20,Antihypertensive,Medicare,01 - No Coverage,Denied,0,$11-25,18.5,2
+2024-02-21,Asthma,BCBS,76 - Plan Limits Exceeded,Abandoned,1,$11-25,12.8,1
+2024-02-21,Antidepressant,Aetna,76 - Plan Limits Exceeded,Filled,1,$0-10,18.3,3
+2024-02-22,Dermatology,United,70 - Product/Service Not Covered,Denied,2,>$100,10.0,4
+2024-02-23,Statin,Medicare,MR - Missing/Invalid Data,Abandoned,1,$0-10,11.8,1
+2024-02-25,Statin,Medicaid,70 - Product/Service Not Covered,Cash,4,>$100,10.2,2
+2024-02-25,Asthma,Aetna,01 - No Coverage,Abandoned,4,$0-10,9.7,2
+2024-02-25,Antihypertensive,Medicare,70 - Product/Service Not Covered,Cash,3,$26-50,13.2,3
+2024-02-26,Analgesic,Other,88 - DUR Reject,Filled,1,$11-25,11.6,2
+2024-02-26,Antihypertensive,Medicare,76 - Plan Limits Exceeded,Filled,1,$0-10,8.8,1
+2024-02-27,Antibiotic,Humana,01 - No Coverage,Abandoned,2,$0-10,16.8,1
+2024-02-28,Dermatology,Humana,76 - Plan Limits Exceeded,Abandoned,3,$11-25,10.9,2
+2024-02-28,Oncology,Humana,79 - Refill Too Soon,Reversed,1,$51-100,18.0,3
+2024-02-28,Antidiabetic,United,70 - Product/Service Not Covered,Denied,0,$0-10,17.8,2
+2024-02-29,Statin,Aetna,79 - Refill Too Soon,Abandoned,0,$0-10,6.1,1
+2024-02-29,Antidiabetic,Aetna,79 - Refill Too Soon,Reversed,2,$0-10,16.6,3
+2024-02-29,Antibiotic,BCBS,01 - No Coverage,Cash,4,$51-100,7.8,1
+2024-02-29,Oncology,Aetna,76 - Plan Limits Exceeded,Abandoned,3,$11-25,18.2,1
+2024-03-01,Antihypertensive,Other,01 - No Coverage,Denied,2,$11-25,11.6,3
+2024-03-02,GI,United,75 - Prior Auth Required,Abandoned,5,$51-100,11.3,1
+2024-03-02,Analgesic,Other,01 - No Coverage,Denied,2,$26-50,8.8,4
+2024-03-03,Oncology,United,PA - PA Required,Denied,10,$26-50,20.0,4
+2024-03-03,GI,Medicare,01 - No Coverage,Denied,2,>$100,13.1,3
+2024-03-03,Antidiabetic,Cigna,01 - No Coverage,Denied,4,$51-100,12.8,2
+2024-03-03,Dermatology,Humana,01 - No Coverage,Denied,3,>$100,14.9,2
+2024-03-04,Antibiotic,Cigna,76 - Plan Limits Exceeded,Reversed,0,$11-25,19.2,4
+2024-03-04,Asthma,United,70 - Product/Service Not Covered,Denied,2,$51-100,12.0,4
+2024-03-06,Oncology,United,70 - Product/Service Not Covered,Abandoned,3,>$100,1.9,1
+2024-03-06,Analgesic,Aetna,75 - Prior Auth Required,Approved,2,$0-10,1.7,1
+2024-03-06,Antidiabetic,United,70 - Product/Service Not Covered,Cash,1,$51-100,10.5,3
+2024-03-07,Asthma,Humana,76 - Plan Limits Exceeded,Abandoned,2,$0-10,12.8,1
+2024-03-07,GI,Medicare,PA - PA Required,Approved,9,$51-100,13.7,3
+2024-03-07,Statin,Aetna,PA - PA Required,Approved,14,$0-10,5.5,1
+2024-03-08,Antibiotic,Medicaid,PA - PA Required,Approved,7,$0-10,11.8,2
+2024-03-08,Antihypertensive,Aetna,70 - Product/Service Not Covered,Cash,2,$26-50,10.8,3
+2024-03-08,Statin,Aetna,88 - DUR Reject,Filled,2,$26-50,13.0,3
+2024-03-08,Statin,United,88 - DUR Reject,Reversed,1,$51-100,10.1,3
+2024-03-09,Oncology,Cigna,75 - Prior Auth Required,Approved,12,$11-25,5.6,3
+2024-03-09,Antidepressant,United,MR - Missing/Invalid Data,Abandoned,2,>$100,6.3,2
+2024-03-10,Asthma,BCBS,01 - No Coverage,Denied,2,>$100,12.4,2
+2024-03-11,Asthma,Cigna,76 - Plan Limits Exceeded,Reversed,2,$0-10,14.1,2
+2024-03-11,Antidiabetic,Humana,76 - Plan Limits Exceeded,Reversed,1,$0-10,5.0,4
+2024-03-13,Dermatology,BCBS,76 - Plan Limits Exceeded,Filled,0,$11-25,8.0,3
+2024-03-13,Analgesic,Other,70 - Product/Service Not Covered,Cash,2,$0-10,12.4,1
+2024-03-14,Analgesic,Medicare,79 - Refill Too Soon,Reversed,2,$11-25,12.5,4
+2024-03-14,Antidiabetic,United,70 - Product/Service Not Covered,Denied,3,$26-50,7.2,4
+2024-03-15,GI,United,01 - No Coverage,Cash,3,$51-100,11.8,1
+2024-03-16,Statin,Cigna,70 - Product/Service Not Covered,Denied,4,$0-10,17.2,4
+2024-03-16,Antibiotic,Medicaid,79 - Refill Too Soon,Abandoned,2,$26-50,9.5,2
+2024-03-16,Antihypertensive,Other,88 - DUR Reject,Filled,3,$0-10,10.5,3
+2024-03-16,Antidiabetic,Medicaid,79 - Refill Too Soon,Abandoned,0,$51-100,12.0,1
+2024-03-17,Dermatology,Aetna,01 - No Coverage,Cash,1,$11-25,18.2,1
+2024-03-17,Antidepressant,Humana,79 - Refill Too Soon,Filled,0,$51-100,6.7,3
+2024-03-19,Statin,United,76 - Plan Limits Exceeded,Filled,1,$11-25,19.6,2
+2024-03-19,Analgesic,United,79 - Refill Too Soon,Reversed,0,$0-10,8.9,3
+2024-03-19,Antibiotic,Cigna,76 - Plan Limits Exceeded,Reversed,3,$11-25,11.2,3
+2024-03-20,Statin,Medicaid,79 - Refill Too Soon,Reversed,1,$51-100,15.5,4
+2024-03-21,Antibiotic,Cigna,75 - Prior Auth Required,Abandoned,8,$26-50,14.4,2
+2024-03-21,Antidepressant,Cigna,MR - Missing/Invalid Data,Filled,2,$26-50,7.5,1
+2024-03-22,Antidepressant,Medicaid,01 - No Coverage,Denied,2,$26-50,17.3,3
+2024-03-22,Antidiabetic,Humana,MR - Missing/Invalid Data,Filled,0,$51-100,11.7,1
+2024-03-23,Dermatology,Aetna,88 - DUR Reject,Filled,0,>$100,11.9,2
+2024-03-23,Antidiabetic,Cigna,75 - Prior Auth Required,Abandoned,9,$26-50,6.7,2
+2024-03-24,GI,Humana,88 - DUR Reject,Abandoned,2,$11-25,11.5,1
+2024-03-24,Antihypertensive,United,PA - PA Required,Approved,6,$11-25,19.0,2
+2024-03-24,Asthma,Medicare,79 - Refill Too Soon,Filled,0,$0-10,8.1,3
+2024-03-24,Asthma,Medicare,70 - Product/Service Not Covered,Cash,1,$0-10,10.7,2
+2024-03-24,Antihypertensive,United,76 - Plan Limits Exceeded,Filled,0,$26-50,11.0,1
+2024-03-25,Oncology,United,01 - No Coverage,Cash,3,$26-50,17.2,3
+2024-03-25,Oncology,Other,75 - Prior Auth Required,Approved,7,>$100,10.1,1
+2024-03-26,Antihypertensive,Medicare,76 - Plan Limits Exceeded,Reversed,3,>$100,13.5,3
+2024-03-26,Oncology,Medicare,76 - Plan Limits Exceeded,Filled,1,$11-25,19.4,3
+2024-03-27,Antidiabetic,BCBS,76 - Plan Limits Exceeded,Reversed,2,$0-10,14.8,3
+2024-03-27,Antibiotic,Medicaid,70 - Product/Service Not Covered,Denied,3,$11-25,8.2,3
+2024-03-27,Antibiotic,Medicare,MR - Missing/Invalid Data,Reversed,1,$0-10,11.6,3
+2024-03-28,Statin,Medicare,MR - Missing/Invalid Data,Reversed,1,$26-50,9.6,4
+2024-03-28,Analgesic,Medicaid,MR - Missing/Invalid Data,Filled,0,$11-25,11.6,3
+2024-03-28,GI,Cigna,79 - Refill Too Soon,Filled,1,$51-100,9.1,1
+2024-03-29,Analgesic,Aetna,PA - PA Required,Approved,4,$51-100,13.8,1
+2024-03-29,Statin,United,MR - Missing/Invalid Data,Filled,3,>$100,9.1,3
+2024-03-30,Statin,United,PA - PA Required,Abandoned,7,$26-50,18.4,2
+2024-03-30,Antidepressant,Humana,79 - Refill Too Soon,Reversed,0,$11-25,3.1,3
+2024-03-30,GI,Medicare,01 - No Coverage,Cash,0,$11-25,21.3,2
+2024-03-30,Statin,Medicaid,01 - No Coverage,Abandoned,3,>$100,6.5,1
+2024-03-31,GI,United,PA - PA Required,Approved,8,$26-50,14.2,3
+2024-03-31,GI,Other,MR - Missing/Invalid Data,Reversed,3,$26-50,19.3,4
+2024-03-31,Analgesic,Cigna,79 - Refill Too Soon,Filled,1,$26-50,11.2,1
+2024-03-31,Analgesic,Cigna,88 - DUR Reject,Filled,0,$26-50,15.2,2
+2024-04-01,Antidepressant,Medicare,PA - PA Required,Abandoned,14,$11-25,15.4,2
+2024-04-01,Antidepressant,Other,70 - Product/Service Not Covered,Denied,2,$51-100,15.6,3
+2024-04-01,Oncology,Cigna,76 - Plan Limits Exceeded,Abandoned,3,$0-10,13.2,2
+2024-04-02,Antidiabetic,Other,75 - Prior Auth Required,Abandoned,7,$26-50,11.8,1
+2024-04-03,Analgesic,Other,70 - Product/Service Not Covered,Abandoned,3,$51-100,16.1,1
+2024-04-03,Antihypertensive,United,70 - Product/Service Not Covered,Denied,2,$26-50,8.4,2
+2024-04-04,Antidepressant,Aetna,79 - Refill Too Soon,Abandoned,1,>$100,10.6,1
+2024-04-05,Antidiabetic,Cigna,MR - Missing/Invalid Data,Filled,0,>$100,7.2,1
+2024-04-05,GI,Medicare,79 - Refill Too Soon,Filled,0,$26-50,19.5,1
+2024-04-05,Asthma,Aetna,88 - DUR Reject,Abandoned,1,$26-50,10.9,2
+2024-04-06,Statin,Medicare,70 - Product/Service Not Covered,Cash,0,$11-25,10.8,2
+2024-04-06,Antidiabetic,United,79 - Refill Too Soon,Reversed,1,$26-50,4.7,3
+2024-04-06,Oncology,Cigna,79 - Refill Too Soon,Abandoned,1,>$100,14.1,1
+2024-04-06,Oncology,Cigna,75 - Prior Auth Required,Abandoned,12,$51-100,13.6,1
+2024-04-07,Analgesic,Aetna,PA - PA Required,Approved,14,$26-50,11.7,3
+2024-04-07,Analgesic,BCBS,PA - PA Required,Approved,8,$51-100,12.1,3
+2024-04-08,Antibiotic,Aetna,MR - Missing/Invalid Data,Filled,1,>$100,17.2,3
+2024-04-08,Antibiotic,Humana,76 - Plan Limits Exceeded,Filled,2,$11-25,13.0,2
+2024-04-08,Analgesic,United,01 - No Coverage,Cash,0,>$100,18.9,2
+2024-04-08,Antidiabetic,BCBS,PA - PA Required,Approved,9,>$100,16.5,3
+2024-04-08,Antidiabetic,Humana,01 - No Coverage,Denied,1,$26-50,16.6,3
+2024-04-09,Antidepressant,Cigna,01 - No Coverage,Abandoned,1,>$100,11.3,2
+2024-04-09,GI,United,MR - Missing/Invalid Data,Filled,3,$11-25,12.5,3
+2024-04-10,Antihypertensive,United,76 - Plan Limits Exceeded,Filled,3,$11-25,19.8,3
+2024-04-11,Dermatology,Medicare,70 - Product/Service Not Covered,Cash,0,$51-100,14.3,2
+2024-04-11,Oncology,Cigna,88 - DUR Reject,Abandoned,3,$11-25,14.3,2
+2024-04-11,Statin,BCBS,70 - Product/Service Not Covered,Abandoned,1,$11-25,9.6,1
+2024-04-12,Antidiabetic,United,01 - No Coverage,Cash,3,>$100,20.7,3
+2024-04-12,Antidepressant,Humana,MR - Missing/Invalid Data,Filled,2,$0-10,10.3,3
+2024-04-13,Antidiabetic,Other,70 - Product/Service Not Covered,Denied,3,$26-50,11.0,4
+2024-04-13,Antibiotic,United,76 - Plan Limits Exceeded,Abandoned,1,$26-50,11.9,2
+2024-04-14,Analgesic,United,01 - No Coverage,Denied,3,$0-10,12.0,4
+2024-04-14,Asthma,Other,01 - No Coverage,Cash,0,$26-50,6.9,3
+2024-04-15,Antihypertensive,BCBS,01 - No Coverage,Cash,0,$11-25,8.3,3
+2024-04-15,Antidepressant,Medicare,75 - Prior Auth Required,Approved,12,$26-50,12.3,2
+2024-04-15,Antidepressant,Other,76 - Plan Limits Exceeded,Reversed,2,$0-10,8.8,2
+2024-04-16,Oncology,Medicaid,70 - Product/Service Not Covered,Denied,0,>$100,15.0,2
+2024-04-17,Antihypertensive,Medicare,79 - Refill Too Soon,Reversed,1,$26-50,9.7,2
+2024-04-17,Antihypertensive,Cigna,76 - Plan Limits Exceeded,Reversed,0,$0-10,14.2,3
+2024-04-17,Asthma,BCBS,79 - Refill Too Soon,Reversed,1,$0-10,17.6,4
+2024-04-18,Oncology,Medicare,01 - No Coverage,Cash,1,$11-25,9.1,1
+2024-04-18,Antihypertensive,BCBS,70 - Product/Service Not Covered,Denied,3,$26-50,11.7,2
+2024-04-18,Statin,Cigna,PA - PA Required,Denied,5,$26-50,10.8,2
+2024-04-18,Statin,United,79 - Refill Too Soon,Reversed,2,$11-25,17.6,4
+2024-04-19,Antihypertensive,Medicare,MR - Missing/Invalid Data,Filled,1,$0-10,17.4,3
+2024-04-20,Antihypertensive,Medicare,79 - Refill Too Soon,Reversed,1,$0-10,12.1,2
+2024-04-20,GI,Medicaid,79 - Refill Too Soon,Reversed,2,$51-100,14.7,4
+2024-04-20,Analgesic,Humana,75 - Prior Auth Required,Approved,4,$0-10,14.9,2
+2024-04-22,Statin,BCBS,MR - Missing/Invalid Data,Reversed,1,$26-50,16.7,3
+2024-04-22,Antihypertensive,Other,70 - Product/Service Not Covered,Cash,4,$11-25,9.4,3
+2024-04-22,Antibiotic,Humana,MR - Missing/Invalid Data,Filled,1,$11-25,5.8,3
+2024-04-23,Oncology,Medicaid,01 - No Coverage,Denied,3,$26-50,13.2,3
+2024-04-23,Statin,Humana,70 - Product/Service Not Covered,Denied,0,$51-100,17.9,3
+2024-04-23,Statin,Humana,79 - Refill Too Soon,Abandoned,1,$51-100,8.5,2
+2024-04-24,Antibiotic,Humana,75 - Prior Auth Required,Approved,3,>$100,11.0,2
+2024-04-24,Antibiotic,Medicaid,01 - No Coverage,Abandoned,2,$51-100,24.9,1
+2024-04-24,Antibiotic,Aetna,01 - No Coverage,Cash,1,>$100,14.6,3
+2024-04-25,Statin,United,79 - Refill Too Soon,Reversed,1,$26-50,11.1,2
+2024-04-25,Antidepressant,BCBS,01 - No Coverage,Denied,4,$11-25,8.1,2
+2024-04-26,Antihypertensive,BCBS,01 - No Coverage,Denied,2,$11-25,12.3,3
+2024-04-26,GI,Aetna,MR - Missing/Invalid Data,Reversed,0,$11-25,8.2,2
+2024-04-26,Antihypertensive,Medicare,75 - Prior Auth Required,Approved,9,>$100,17.5,3
+2024-04-27,GI,Aetna,01 - No Coverage,Cash,2,$26-50,12.2,3
+2024-04-27,Statin,Other,70 - Product/Service Not Covered,Abandoned,2,$51-100,11.0,2
+2024-04-27,Statin,Humana,01 - No Coverage,Denied,0,$0-10,20.8,3
+2024-04-27,Antidiabetic,Medicaid,70 - Product/Service Not Covered,Denied,3,$51-100,10.0,3
+2024-04-28,Dermatology,Medicare,70 - Product/Service Not Covered,Cash,1,$26-50,16.7,1
+2024-04-28,Antibiotic,Aetna,76 - Plan Limits Exceeded,Filled,0,$11-25,8.1,3
+2024-04-28,Statin,Cigna,75 - Prior Auth Required,Approved,8,$26-50,14.8,1
+2024-04-30,Antidepressant,Cigna,01 - No Coverage,Denied,2,$0-10,10.3,3
+2024-04-30,Asthma,Humana,79 - Refill Too Soon,Reversed,0,$51-100,10.3,3
+2024-04-30,Dermatology,Cigna,76 - Plan Limits Exceeded,Filled,1,$26-50,16.5,1
+2024-05-01,Asthma,Medicaid,88 - DUR Reject,Abandoned,2,$0-10,13.9,1
+2024-05-02,Antibiotic,Humana,01 - No Coverage,Abandoned,0,$26-50,16.5,1
+2024-05-03,Statin,Cigna,79 - Refill Too Soon,Reversed,2,$26-50,7.3,2
+2024-05-03,Statin,BCBS,01 - No Coverage,Denied,3,>$100,2.3,4
+2024-05-03,Oncology,Cigna,88 - DUR Reject,Abandoned,2,>$100,17.4,2
+2024-05-04,Oncology,Medicare,70 - Product/Service Not Covered,Denied,3,$11-25,9.9,3
+2024-05-04,Oncology,Medicare,75 - Prior Auth Required,Approved,7,$0-10,13.7,2
+2024-05-04,GI,Cigna,79 - Refill Too Soon,Reversed,1,$11-25,7.9,2
+2024-05-05,Antibiotic,Medicare,76 - Plan Limits Exceeded,Filled,0,$0-10,14.9,3
+2024-05-05,GI,Other,79 - Refill Too Soon,Filled,1,$11-25,19.6,1
+2024-05-06,Oncology,Medicaid,70 - Product/Service Not Covered,Denied,0,$0-10,9.0,2
+2024-05-06,Asthma,Medicare,PA - PA Required,Denied,8,$26-50,12.2,3
+2024-05-07,Antihypertensive,Medicaid,01 - No Coverage,Cash,3,$11-25,9.2,2
+2024-05-07,Antidepressant,Other,79 - Refill Too Soon,Reversed,1,>$100,11.6,3
+2024-05-07,Antidepressant,Humana,70 - Product/Service Not Covered,Denied,0,>$100,13.2,3
+2024-05-07,Statin,Medicare,88 - DUR Reject,Filled,0,$0-10,9.9,2
+2024-05-08,Antibiotic,Cigna,MR - Missing/Invalid Data,Abandoned,0,$0-10,9.7,1
+2024-05-08,Oncology,Aetna,01 - No Coverage,Denied,0,>$100,12.9,4
+2024-05-08,Antidepressant,Other,79 - Refill Too Soon,Filled,2,$0-10,13.0,1
+2024-05-08,Oncology,Cigna,70 - Product/Service Not Covered,Denied,2,$11-25,3.4,4
+2024-05-08,Antidiabetic,United,75 - Prior Auth Required,Denied,9,$11-25,17.1,4
+2024-05-09,Antibiotic,Humana,70 - Product/Service Not Covered,Abandoned,0,$51-100,10.8,2
+2024-05-09,Analgesic,Other,MR - Missing/Invalid Data,Filled,3,>$100,13.8,2
+2024-05-10,Antibiotic,Other,01 - No Coverage,Cash,1,$0-10,23.2,2
+2024-05-10,Dermatology,Aetna,88 - DUR Reject,Filled,0,$26-50,8.3,1
+2024-05-10,Dermatology,Cigna,79 - Refill Too Soon,Reversed,1,$26-50,12.1,4
+2024-05-12,Antidepressant,Cigna,79 - Refill Too Soon,Filled,2,$11-25,11.9,2
+2024-05-12,Antihypertensive,BCBS,70 - Product/Service Not Covered,Cash,4,$11-25,10.3,1
+2024-05-13,Antidepressant,Aetna,PA - PA Required,Denied,14,$26-50,11.5,4
+2024-05-14,GI,Medicare,01 - No Coverage,Abandoned,0,$26-50,13.7,2
+2024-05-14,Oncology,Other,70 - Product/Service Not Covered,Abandoned,4,$0-10,12.1,1
+2024-05-14,Dermatology,Humana,75 - Prior Auth Required,Approved,4,$0-10,13.6,2
+2024-05-14,GI,United,75 - Prior Auth Required,Approved,11,$26-50,10.9,1
+2024-05-14,Antidiabetic,Medicare,MR - Missing/Invalid Data,Filled,2,$11-25,11.7,2
+2024-05-15,Antibiotic,Other,88 - DUR Reject,Abandoned,3,$0-10,10.5,2
+2024-05-15,Antidiabetic,Medicare,70 - Product/Service Not Covered,Abandoned,2,$0-10,14.8,1
+2024-05-16,GI,Medicare,70 - Product/Service Not Covered,Denied,2,$26-50,17.4,4
+2024-05-17,Antihypertensive,Medicare,PA - PA Required,Denied,13,$11-25,10.9,3
+2024-05-17,Antidepressant,BCBS,75 - Prior Auth Required,Approved,11,$51-100,14.0,1
+2024-05-17,Antidepressant,Aetna,75 - Prior Auth Required,Denied,6,$11-25,5.8,2
+2024-05-17,Antihypertensive,Other,PA - PA Required,Approved,4,$0-10,13.5,1
+2024-05-17,GI,Medicare,79 - Refill Too Soon,Reversed,1,$26-50,12.5,3
+2024-05-18,Dermatology,BCBS,79 - Refill Too Soon,Filled,2,$11-25,20.2,1
+2024-05-18,GI,Humana,PA - PA Required,Approved,7,$26-50,21.1,3
+2024-05-19,Antidiabetic,Medicaid,76 - Plan Limits Exceeded,Filled,3,$51-100,3.8,2
+2024-05-19,Antidepressant,BCBS,70 - Product/Service Not Covered,Denied,4,$11-25,13.0,4
+2024-05-19,Antidepressant,Medicare,MR - Missing/Invalid Data,Abandoned,0,$11-25,2.8,1
+2024-05-19,Asthma,Aetna,70 - Product/Service Not Covered,Denied,0,$11-25,18.7,4
+2024-05-20,Antibiotic,Cigna,MR - Missing/Invalid Data,Filled,1,>$100,15.4,2
+2024-05-20,Antibiotic,United,MR - Missing/Invalid Data,Filled,3,$0-10,8.8,2
+2024-05-20,Antidepressant,Other,76 - Plan Limits Exceeded,Reversed,0,$26-50,14.4,2
+2024-05-20,Oncology,United,01 - No Coverage,Abandoned,2,$11-25,12.0,2
+2024-05-20,Analgesic,Aetna,PA - PA Required,Denied,11,$26-50,14.1,4
+2024-05-20,Statin,Aetna,01 - No Coverage,Cash,4,$26-50,8.5,1
+2024-05-21,Antihypertensive,United,88 - DUR Reject,Reversed,0,$26-50,18.9,2
+2024-05-21,Asthma,BCBS,76 - Plan Limits Exceeded,Filled,2,>$100,12.1,3
+2024-05-21,Asthma,Medicaid,MR - Missing/Invalid Data,Filled,1,$26-50,11.9,1
+2024-05-21,Antidiabetic,Medicaid,79 - Refill Too Soon,Reversed,1,$26-50,13.1,2
+2024-05-22,Antidiabetic,Cigna,PA - PA Required,Approved,7,$11-25,9.0,2
+2024-05-22,Antihypertensive,Medicaid,76 - Plan Limits Exceeded,Filled,2,$0-10,17.3,3
+2024-05-23,GI,BCBS,88 - DUR Reject,Filled,1,$0-10,19.0,3
+2024-05-23,Antihypertensive,Cigna,01 - No Coverage,Cash,1,$51-100,16.4,1
+2024-05-24,Antibiotic,Humana,76 - Plan Limits Exceeded,Reversed,2,$26-50,7.9,3
+2024-05-25,Antidiabetic,United,70 - Product/Service Not Covered,Abandoned,1,$51-100,16.6,1
+2024-05-25,Oncology,United,79 - Refill Too Soon,Abandoned,0,$0-10,9.7,2
+2024-05-25,GI,Aetna,76 - Plan Limits Exceeded,Abandoned,2,$0-10,14.8,2
+2024-05-25,GI,Humana,70 - Product/Service Not Covered,Denied,2,$26-50,12.9,4
+2024-05-26,Antibiotic,Cigna,MR - Missing/Invalid Data,Filled,0,>$100,21.8,1
+2024-05-26,Analgesic,Medicaid,PA - PA Required,Denied,6,$0-10,11.9,4
+2024-05-27,Antihypertensive,Cigna,01 - No Coverage,Abandoned,0,$26-50,11.9,2
+2024-05-29,Asthma,Medicare,PA - PA Required,Denied,10,>$100,4.2,2
+2024-05-29,Oncology,Medicaid,PA - PA Required,Abandoned,14,>$100,12.9,1
+2024-05-29,Oncology,Other,PA - PA Required,Approved,12,$11-25,12.9,1
+2024-05-29,Dermatology,Cigna,76 - Plan Limits Exceeded,Filled,0,$0-10,14.6,1
+2024-05-30,Statin,Aetna,PA - PA Required,Abandoned,7,>$100,1.0,2
+2024-05-31,Analgesic,Other,79 - Refill Too Soon,Abandoned,0,$51-100,8.2,2
+2024-05-31,GI,United,PA - PA Required,Denied,11,>$100,7.5,2
+2024-05-31,Statin,Cigna,79 - Refill Too Soon,Filled,0,$26-50,13.6,3
+2024-06-01,Analgesic,Other,PA - PA Required,Approved,7,$11-25,11.2,2
+2024-06-01,Statin,United,01 - No Coverage,Cash,3,$51-100,10.3,2
+2024-06-02,Antidiabetic,Aetna,79 - Refill Too Soon,Reversed,2,$11-25,7.9,2
+2024-06-02,Antidiabetic,Medicare,MR - Missing/Invalid Data,Abandoned,2,$51-100,16.2,1
+2024-06-03,GI,Cigna,PA - PA Required,Approved,2,$11-25,8.5,3
+2024-06-03,Antihypertensive,Cigna,75 - Prior Auth Required,Approved,5,>$100,9.0,2
+2024-06-03,Analgesic,Medicaid,79 - Refill Too Soon,Filled,0,$0-10,8.2,2
+2024-06-03,Oncology,United,76 - Plan Limits Exceeded,Filled,1,>$100,8.1,3
+2024-06-04,Antidiabetic,Humana,79 - Refill Too Soon,Filled,2,$26-50,6.9,2
+2024-06-05,Oncology,Other,79 - Refill Too Soon,Reversed,2,$11-25,5.6,4
+2024-06-05,Antidepressant,Cigna,79 - Refill Too Soon,Reversed,2,>$100,15.1,4
+2024-06-06,Antidepressant,Aetna,01 - No Coverage,Denied,1,$26-50,8.9,3
+2024-06-06,Antibiotic,Other,70 - Product/Service Not Covered,Cash,4,$26-50,2.1,3
+2024-06-06,Analgesic,Medicaid,PA - PA Required,Approved,7,$11-25,11.1,1
+2024-06-06,Antidiabetic,Other,MR - Missing/Invalid Data,Abandoned,0,$51-100,13.8,1
+2024-06-06,Asthma,Cigna,79 - Refill Too Soon,Filled,1,$51-100,10.3,2
+2024-06-07,Asthma,Other,70 - Product/Service Not Covered,Cash,2,$26-50,5.9,2
+2024-06-08,Antidepressant,Cigna,88 - DUR Reject,Filled,3,$11-25,1.7,1
+2024-06-08,Oncology,Humana,88 - DUR Reject,Filled,3,$0-10,18.9,2
+2024-06-08,Dermatology,Medicaid,PA - PA Required,Approved,2,$51-100,9.0,2
+2024-06-08,GI,United,70 - Product/Service Not Covered,Denied,2,$11-25,16.0,2
+2024-06-09,Antidepressant,Medicaid,01 - No Coverage,Denied,2,$26-50,12.8,2
+2024-06-10,Asthma,Medicaid,76 - Plan Limits Exceeded,Filled,2,$11-25,11.8,1
+2024-06-12,Antidepressant,Cigna,88 - DUR Reject,Filled,2,$51-100,9.8,3
+2024-06-12,Statin,Other,79 - Refill Too Soon,Reversed,0,$0-10,11.0,4
+2024-06-12,Dermatology,United,75 - Prior Auth Required,Denied,4,$0-10,11.5,3
+2024-06-13,Dermatology,Medicare,75 - Prior Auth Required,Denied,13,$51-100,10.5,3
+2024-06-14,Antidepressant,United,76 - Plan Limits Exceeded,Filled,2,$51-100,8.1,3
+2024-06-14,Statin,Aetna,70 - Product/Service Not Covered,Denied,2,>$100,18.4,3
+2024-06-14,Antihypertensive,Aetna,PA - PA Required,Approved,3,$11-25,10.3,1
+2024-06-14,Asthma,Medicaid,79 - Refill Too Soon,Filled,0,$0-10,14.3,1
+2024-06-14,Oncology,Aetna,70 - Product/Service Not Covered,Cash,1,$51-100,15.0,3
+2024-06-14,Dermatology,Humana,MR - Missing/Invalid Data,Abandoned,3,>$100,13.3,1
+2024-06-15,GI,Cigna,01 - No Coverage,Denied,4,$0-10,15.8,3
+2024-06-15,Asthma,BCBS,PA - PA Required,Approved,3,>$100,7.6,1
+2024-06-15,Oncology,Other,01 - No Coverage,Cash,2,$26-50,18.4,3
+2024-06-15,Oncology,United,76 - Plan Limits Exceeded,Abandoned,0,$26-50,8.8,2
+2024-06-16,Dermatology,Other,79 - Refill Too Soon,Reversed,2,$11-25,16.7,4
+2024-06-16,Oncology,Aetna,79 - Refill Too Soon,Abandoned,2,>$100,16.6,1
+2024-06-16,Analgesic,Humana,79 - Refill Too Soon,Reversed,1,$51-100,13.8,4
+2024-06-17,Antibiotic,BCBS,MR - Missing/Invalid Data,Reversed,3,$11-25,13.7,3
+2024-06-18,Antidiabetic,Humana,70 - Product/Service Not Covered,Cash,4,$0-10,16.8,2
+2024-06-18,Dermatology,Other,75 - Prior Auth Required,Approved,8,$11-25,13.2,1
+2024-06-18,Antidiabetic,Other,79 - Refill Too Soon,Abandoned,0,$26-50,13.1,2
+2024-06-18,Dermatology,Medicare,01 - No Coverage,Denied,3,$26-50,14.3,3
+2024-06-18,Antidiabetic,Aetna,01 - No Coverage,Denied,4,$11-25,6.2,4
+2024-06-18,Antidiabetic,Aetna,79 - Refill Too Soon,Abandoned,0,$26-50,7.3,1
+2024-06-18,Antidepressant,Cigna,01 - No Coverage,Denied,0,$11-25,8.5,2
+2024-06-18,Antidepressant,Other,76 - Plan Limits Exceeded,Filled,0,$11-25,13.9,2
+2024-06-18,Asthma,Humana,75 - Prior Auth Required,Denied,2,$11-25,12.9,2
+2024-06-19,Antihypertensive,Cigna,76 - Plan Limits Exceeded,Filled,1,>$100,8.2,3
+2024-06-19,Antibiotic,Cigna,MR - Missing/Invalid Data,Reversed,3,$51-100,8.8,4
+2024-06-20,Antidiabetic,Cigna,70 - Product/Service Not Covered,Cash,1,$26-50,7.9,3
+2024-06-20,Antidiabetic,Medicare,79 - Refill Too Soon,Reversed,1,$11-25,23.3,4
+2024-06-20,Asthma,United,88 - DUR Reject,Filled,1,$0-10,10.9,3
+2024-06-20,Analgesic,Humana,79 - Refill Too Soon,Reversed,1,$51-100,12.4,3
+2024-06-21,Analgesic,Other,01 - No Coverage,Cash,3,$11-25,12.0,3
+2024-06-22,Antibiotic,Humana,88 - DUR Reject,Filled,0,$11-25,12.9,1
+2024-06-22,Dermatology,Cigna,76 - Plan Limits Exceeded,Reversed,3,$11-25,9.2,4
+2024-06-22,Statin,BCBS,76 - Plan Limits Exceeded,Filled,2,$26-50,22.3,3
+2024-06-23,Dermatology,BCBS,01 - No Coverage,Denied,2,$51-100,19.0,4
+2024-06-23,Asthma,Cigna,76 - Plan Limits Exceeded,Abandoned,3,$11-25,10.4,2
+2024-06-23,Antihypertensive,Humana,70 - Product/Service Not Covered,Cash,4,$11-25,10.0,1
+2024-06-23,Asthma,United,75 - Prior Auth Required,Abandoned,7,$11-25,14.2,1
+2024-06-23,Statin,Other,01 - No Coverage,Denied,1,$26-50,8.9,2
+2024-06-24,Antidiabetic,United,01 - No Coverage,Cash,4,$0-10,13.7,1
+2024-06-24,Oncology,Cigna,70 - Product/Service Not Covered,Denied,0,$0-10,11.8,4
+2024-06-24,Asthma,BCBS,PA - PA Required,Approved,7,$11-25,12.9,1
+2024-06-25,Antidiabetic,Aetna,01 - No Coverage,Denied,3,$0-10,6.2,4
+2024-06-25,Asthma,BCBS,75 - Prior Auth Required,Approved,11,$11-25,13.9,3
+2024-06-25,Analgesic,United,79 - Refill Too Soon,Filled,1,$0-10,9.8,1
+2024-06-25,Statin,Medicare,01 - No Coverage,Abandoned,1,$0-10,11.5,1
+2024-06-26,Oncology,Humana,79 - Refill Too Soon,Reversed,2,$0-10,23.2,2
+2024-06-27,Asthma,Medicaid,75 - Prior Auth Required,Approved,4,$11-25,10.9,2
+2024-06-27,Oncology,Cigna,76 - Plan Limits Exceeded,Reversed,2,$0-10,18.1,2
+2024-06-28,Statin,Cigna,PA - PA Required,Denied,14,$0-10,12.1,4
+2024-06-28,Dermatology,Medicaid,79 - Refill Too Soon,Reversed,0,$51-100,18.1,4
+2024-06-28,Dermatology,Medicare,79 - Refill Too Soon,Reversed,2,$26-50,11.1,2
+2024-06-28,GI,Other,MR - Missing/Invalid Data,Filled,1,$0-10,7.3,1
+2024-06-28,Dermatology,Humana,79 - Refill Too Soon,Reversed,1,$11-25,12.0,2
+2024-06-29,Antihypertensive,United,PA - PA Required,Approved,10,>$100,16.7,1
+2024-06-30,Analgesic,Medicare,79 - Refill Too Soon,Abandoned,1,$26-50,11.5,1
+2024-06-30,Analgesic,Medicaid,PA - PA Required,Approved,4,$11-25,9.2,3
+2024-07-02,Statin,United,01 - No Coverage,Abandoned,3,$0-10,10.0,1
+2024-07-02,Antidiabetic,Other,79 - Refill Too Soon,Abandoned,1,$26-50,6.5,2
+2024-07-02,Antidepressant,BCBS,75 - Prior Auth Required,Denied,12,$0-10,2.1,2
+2024-07-02,Antihypertensive,Humana,PA - PA Required,Abandoned,10,$11-25,12.2,1
+2024-07-03,Analgesic,Humana,01 - No Coverage,Cash,3,>$100,8.1,3
+2024-07-03,Oncology,United,MR - Missing/Invalid Data,Filled,0,$26-50,6.8,1
+2024-07-04,Antibiotic,United,70 - Product/Service Not Covered,Cash,1,$11-25,4.1,1
+2024-07-05,Antibiotic,Cigna,75 - Prior Auth Required,Approved,2,$11-25,15.3,1
+2024-07-06,Antibiotic,Medicare,79 - Refill Too Soon,Filled,1,$26-50,15.8,1
+2024-07-06,Dermatology,United,PA - PA Required,Abandoned,14,$0-10,17.9,1
+2024-07-06,GI,United,76 - Plan Limits Exceeded,Abandoned,1,$51-100,8.3,2
+2024-07-07,Antihypertensive,Cigna,PA - PA Required,Approved,6,$0-10,15.4,3
+2024-07-07,Statin,BCBS,88 - DUR Reject,Filled,1,$11-25,8.1,1
+2024-07-09,Antidiabetic,BCBS,01 - No Coverage,Denied,0,$0-10,7.6,2
+2024-07-09,Oncology,Other,70 - Product/Service Not Covered,Abandoned,4,$26-50,7.7,2
+2024-07-09,Antidiabetic,Humana,70 - Product/Service Not Covered,Denied,4,$11-25,6.3,4
+2024-07-10,Antidepressant,Medicaid,PA - PA Required,Approved,10,$11-25,19.4,1
+2024-07-10,Antibiotic,Medicaid,PA - PA Required,Approved,2,$26-50,9.9,3
+2024-07-10,Antihypertensive,Other,PA - PA Required,Denied,6,$11-25,16.3,2
+2024-07-10,Dermatology,United,PA - PA Required,Approved,8,>$100,10.9,2
+2024-07-11,Asthma,Humana,79 - Refill Too Soon,Filled,2,$11-25,12.6,3
+2024-07-11,Oncology,Cigna,MR - Missing/Invalid Data,Abandoned,0,$11-25,10.5,2
+2024-07-11,GI,Medicaid,75 - Prior Auth Required,Denied,14,$26-50,16.5,2
+2024-07-12,Analgesic,BCBS,79 - Refill Too Soon,Filled,2,>$100,17.3,2
+2024-07-12,GI,Medicare,75 - Prior Auth Required,Approved,9,$0-10,12.2,3
+2024-07-12,Oncology,United,PA - PA Required,Approved,9,$51-100,9.7,3
+2024-07-13,Analgesic,Medicare,70 - Product/Service Not Covered,Denied,0,$26-50,15.9,2
+2024-07-13,Oncology,BCBS,76 - Plan Limits Exceeded,Filled,3,$0-10,17.3,1
+2024-07-14,Antidepressant,Other,88 - DUR Reject,Filled,2,$11-25,11.8,1
+2024-07-14,Asthma,Medicare,01 - No Coverage,Abandoned,2,>$100,18.2,1
+2024-07-14,GI,BCBS,76 - Plan Limits Exceeded,Abandoned,1,$26-50,12.5,2
+2024-07-14,Antibiotic,Cigna,01 - No Coverage,Cash,3,$51-100,5.9,1
+2024-07-14,Dermatology,Humana,75 - Prior Auth Required,Approved,8,>$100,15.0,3
+2024-07-14,Asthma,Humana,MR - Missing/Invalid Data,Filled,1,$26-50,14.1,2
+2024-07-15,Antidiabetic,Cigna,79 - Refill Too Soon,Reversed,1,$0-10,13.0,2
+2024-07-15,Antidepressant,Medicare,75 - Prior Auth Required,Approved,6,$26-50,15.9,1
+2024-07-15,Antihypertensive,Medicare,70 - Product/Service Not Covered,Abandoned,4,$11-25,17.0,1
+2024-07-16,Dermatology,Other,PA - PA Required,Approved,11,$26-50,20.0,2
+2024-07-16,Oncology,Medicare,MR - Missing/Invalid Data,Reversed,0,$0-10,18.0,4
+2024-07-16,Analgesic,BCBS,79 - Refill Too Soon,Filled,1,$26-50,8.8,3
+2024-07-17,Oncology,Medicare,76 - Plan Limits Exceeded,Filled,0,$26-50,8.5,3
+2024-07-17,Oncology,Other,01 - No Coverage,Denied,2,$0-10,17.6,3
+2024-07-17,Analgesic,Medicaid,01 - No Coverage,Denied,3,$11-25,14.1,3
+2024-07-18,Oncology,BCBS,70 - Product/Service Not Covered,Abandoned,0,$11-25,13.1,2
+2024-07-18,Analgesic,United,PA - PA Required,Abandoned,11,$0-10,10.2,2
+2024-07-18,Oncology,Cigna,88 - DUR Reject,Filled,3,$11-25,15.6,1
+2024-07-18,Statin,Medicare,70 - Product/Service Not Covered,Denied,1,>$100,9.2,4
+2024-07-19,Analgesic,Aetna,PA - PA Required,Denied,5,$11-25,17.3,2
+2024-07-20,Antidepressant,Medicaid,76 - Plan Limits Exceeded,Filled,1,$0-10,12.2,1
+2024-07-20,Oncology,Cigna,76 - Plan Limits Exceeded,Filled,0,$26-50,9.7,2
+2024-07-21,Oncology,Aetna,75 - Prior Auth Required,Approved,7,$11-25,13.2,1
+2024-07-21,Statin,BCBS,76 - Plan Limits Exceeded,Filled,1,>$100,9.3,2
+2024-07-21,Antidepressant,Medicare,76 - Plan Limits Exceeded,Reversed,0,$11-25,14.9,2
+2024-07-22,Antidepressant,BCBS,70 - Product/Service Not Covered,Denied,1,$11-25,13.0,3
+2024-07-22,Dermatology,Cigna,79 - Refill Too Soon,Filled,0,$26-50,14.6,1
+2024-07-22,Analgesic,BCBS,76 - Plan Limits Exceeded,Filled,0,$26-50,15.7,3
+2024-07-22,Antihypertensive,Humana,79 - Refill Too Soon,Filled,0,$26-50,16.7,3
+2024-07-22,Asthma,United,76 - Plan Limits Exceeded,Filled,3,$51-100,8.5,2
+2024-07-23,Asthma,Cigna,75 - Prior Auth Required,Approved,6,$11-25,17.2,1
+2024-07-23,Antidepressant,Cigna,88 - DUR Reject,Filled,2,$11-25,14.5,3
+2024-07-24,Oncology,Cigna,88 - DUR Reject,Reversed,1,$0-10,10.5,4
+2024-07-25,Antidepressant,United,PA - PA Required,Denied,6,$11-25,8.5,2
+2024-07-26,Analgesic,Other,79 - Refill Too Soon,Reversed,1,$11-25,8.4,2
+2024-07-26,GI,Aetna,76 - Plan Limits Exceeded,Filled,1,$51-100,12.9,1
+2024-07-27,Oncology,Humana,MR - Missing/Invalid Data,Reversed,3,$11-25,15.3,3
+2024-07-28,Oncology,Other,70 - Product/Service Not Covered,Denied,2,$26-50,13.4,3
+2024-07-28,Antidiabetic,United,79 - Refill Too Soon,Reversed,1,$0-10,13.4,2
+2024-07-28,Oncology,Medicare,PA - PA Required,Approved,4,$0-10,18.6,2
+2024-07-28,Antidiabetic,BCBS,MR - Missing/Invalid Data,Filled,3,$11-25,13.2,2
+2024-07-28,Analgesic,Humana,79 - Refill Too Soon,Filled,0,$26-50,12.4,3
+2024-07-28,Oncology,Cigna,01 - No Coverage,Denied,2,$0-10,18.2,2
+2024-07-29,Antidepressant,United,79 - Refill Too Soon,Reversed,0,$51-100,11.6,4
+2024-07-29,Statin,Aetna,76 - Plan Limits Exceeded,Filled,3,$51-100,8.7,3
+2024-07-30,Antibiotic,Humana,PA - PA Required,Approved,10,>$100,14.4,3
+2024-07-30,Asthma,BCBS,76 - Plan Limits Exceeded,Abandoned,2,$0-10,12.8,1
+2024-07-30,Antidepressant,BCBS,75 - Prior Auth Required,Denied,3,$0-10,12.4,2
+2024-08-01,Antihypertensive,Aetna,01 - No Coverage,Denied,3,$0-10,11.9,3
+2024-08-01,Analgesic,United,70 - Product/Service Not Covered,Denied,4,$51-100,6.2,4
+2024-08-01,Oncology,Cigna,76 - Plan Limits Exceeded,Abandoned,2,$11-25,9.8,1
+2024-08-01,Analgesic,Medicare,70 - Product/Service Not Covered,Denied,1,$0-10,14.6,2
+2024-08-02,GI,Other,79 - Refill Too Soon,Abandoned,1,$26-50,16.8,1
+2024-08-02,Statin,United,PA - PA Required,Abandoned,13,$11-25,15.8,1
+2024-08-02,Oncology,Aetna,01 - No Coverage,Denied,2,$0-10,15.0,2
+2024-08-03,Antidepressant,Medicaid,70 - Product/Service Not Covered,Denied,0,$11-25,15.5,4
+2024-08-03,GI,Medicare,01 - No Coverage,Denied,1,$11-25,9.7,4
+2024-08-04,Asthma,Cigna,76 - Plan Limits Exceeded,Reversed,3,$26-50,19.2,3
+2024-08-04,Asthma,Cigna,MR - Missing/Invalid Data,Filled,1,$11-25,8.6,2
+2024-08-04,Antidepressant,Medicaid,70 - Product/Service Not Covered,Denied,0,$51-100,11.1,2
+2024-08-04,Antibiotic,Humana,70 - Product/Service Not Covered,Denied,2,$51-100,16.3,3
+2024-08-04,Dermatology,Cigna,PA - PA Required,Denied,6,$26-50,11.2,3
+2024-08-05,Statin,United,PA - PA Required,Denied,9,$0-10,11.6,2
+2024-08-05,Antihypertensive,BCBS,76 - Plan Limits Exceeded,Filled,0,$11-25,3.8,3
+2024-08-05,Statin,Humana,75 - Prior Auth Required,Denied,7,$0-10,13.7,3
+2024-08-05,Asthma,Cigna,76 - Plan Limits Exceeded,Reversed,2,$11-25,9.6,4
+2024-08-05,Antihypertensive,Humana,75 - Prior Auth Required,Approved,12,$11-25,15.0,2
+2024-08-06,Antihypertensive,Other,75 - Prior Auth Required,Approved,7,$26-50,16.2,2
+2024-08-06,Antidiabetic,BCBS,01 - No Coverage,Cash,3,$0-10,12.1,1
+2024-08-06,GI,Medicaid,70 - Product/Service Not Covered,Cash,4,$11-25,15.5,3
+2024-08-06,Antidepressant,BCBS,70 - Product/Service Not Covered,Denied,0,$11-25,11.3,3
+2024-08-06,Antibiotic,Medicaid,76 - Plan Limits Exceeded,Abandoned,2,$0-10,4.5,2
+2024-08-07,Statin,United,01 - No Coverage,Denied,2,$0-10,10.9,4
+2024-08-07,Asthma,Humana,76 - Plan Limits Exceeded,Abandoned,0,$11-25,10.1,1
+2024-08-08,Antihypertensive,Humana,88 - DUR Reject,Reversed,1,$0-10,19.1,4
+2024-08-08,GI,United,88 - DUR Reject,Filled,0,$11-25,10.8,3
+2024-08-08,Antidiabetic,Aetna,79 - Refill Too Soon,Reversed,2,$26-50,8.4,4
+2024-08-08,Antibiotic,Humana,79 - Refill Too Soon,Filled,2,$26-50,3.4,1
+2024-08-09,Analgesic,United,75 - Prior Auth Required,Approved,7,$26-50,3.7,2
+2024-08-10,Antidiabetic,Other,MR - Missing/Invalid Data,Filled,1,$0-10,10.4,1
+2024-08-10,Antibiotic,Medicare,PA - PA Required,Denied,12,$0-10,22.4,4
+2024-08-10,Antidiabetic,Cigna,70 - Product/Service Not Covered,Abandoned,1,$0-10,8.0,2
+2024-08-11,GI,BCBS,75 - Prior Auth Required,Approved,3,$11-25,8.7,2
+2024-08-11,GI,Medicare,88 - DUR Reject,Filled,2,$26-50,16.1,1
+2024-08-11,Asthma,Cigna,88 - DUR Reject,Filled,3,$0-10,5.4,3
+2024-08-11,Analgesic,Other,01 - No Coverage,Abandoned,2,$26-50,5.1,1
+2024-08-12,Antibiotic,Medicare,75 - Prior Auth Required,Denied,9,$26-50,14.1,4
+2024-08-12,GI,BCBS,01 - No Coverage,Denied,2,$0-10,3.7,3
+2024-08-12,Asthma,Aetna,70 - Product/Service Not Covered,Abandoned,2,$11-25,10.1,1
+2024-08-12,Antihypertensive,Other,01 - No Coverage,Abandoned,1,$51-100,14.9,1
+2024-08-13,Antibiotic,Medicaid,PA - PA Required,Approved,6,$11-25,8.7,2
+2024-08-13,Oncology,BCBS,PA - PA Required,Approved,8,>$100,17.7,1
+2024-08-13,Antidepressant,Medicare,PA - PA Required,Abandoned,11,$0-10,16.8,2
+2024-08-14,Oncology,Aetna,79 - Refill Too Soon,Filled,1,$51-100,14.2,2
+2024-08-15,Antihypertensive,BCBS,01 - No Coverage,Denied,0,$11-25,12.7,3
+2024-08-15,Antidepressant,BCBS,79 - Refill Too Soon,Reversed,1,$11-25,13.3,4
+2024-08-15,Antibiotic,Humana,PA - PA Required,Denied,12,>$100,12.2,3
+2024-08-15,Antihypertensive,Humana,79 - Refill Too Soon,Reversed,0,$11-25,2.7,3
+2024-08-16,Antibiotic,Other,79 - Refill Too Soon,Reversed,2,$0-10,4.9,4
+2024-08-16,Antidepressant,Cigna,01 - No Coverage,Cash,0,$0-10,11.2,2
+2024-08-16,Oncology,Aetna,70 - Product/Service Not Covered,Cash,2,$26-50,14.3,3
+2024-08-16,Antidepressant,United,70 - Product/Service Not Covered,Cash,3,$0-10,11.0,1
+2024-08-16,Dermatology,Cigna,70 - Product/Service Not Covered,Abandoned,3,$51-100,12.3,2
+2024-08-17,Statin,Humana,75 - Prior Auth Required,Denied,9,>$100,14.1,4
+2024-08-17,Antihypertensive,Medicaid,79 - Refill Too Soon,Filled,2,$11-25,12.4,3
+2024-08-18,Oncology,BCBS,01 - No Coverage,Abandoned,2,$26-50,7.3,1
+2024-08-18,Analgesic,Medicaid,01 - No Coverage,Denied,0,$51-100,12.6,4
+2024-08-18,Antidepressant,BCBS,MR - Missing/Invalid Data,Filled,2,$51-100,13.1,2
+2024-08-18,Asthma,United,70 - Product/Service Not Covered,Denied,1,$26-50,17.8,2
+2024-08-19,Analgesic,Other,70 - Product/Service Not Covered,Denied,1,$51-100,9.9,4
+2024-08-19,Analgesic,Humana,PA - PA Required,Approved,14,$0-10,13.5,1
+2024-08-19,Antihypertensive,United,75 - Prior Auth Required,Denied,13,$26-50,22.2,4
+2024-08-19,Antidiabetic,Cigna,70 - Product/Service Not Covered,Cash,4,$0-10,9.5,2
+2024-08-20,Asthma,Aetna,70 - Product/Service Not Covered,Denied,0,$26-50,8.4,2
+2024-08-21,Asthma,Humana,PA - PA Required,Approved,8,$11-25,11.8,1
+2024-08-21,GI,Medicaid,01 - No Coverage,Denied,2,$11-25,8.1,3
+2024-08-22,GI,Cigna,79 - Refill Too Soon,Reversed,1,$0-10,8.0,3
+2024-08-22,Analgesic,United,79 - Refill Too Soon,Reversed,1,$26-50,13.8,2
+2024-08-22,GI,United,01 - No Coverage,Denied,0,$26-50,7.2,4
+2024-08-22,Oncology,Aetna,76 - Plan Limits Exceeded,Filled,3,$26-50,18.0,1
+2024-08-22,Dermatology,United,PA - PA Required,Approved,3,$0-10,17.7,1
+2024-08-23,Antidiabetic,Medicaid,88 - DUR Reject,Reversed,3,$11-25,11.1,3
+2024-08-23,Analgesic,Humana,70 - Product/Service Not Covered,Denied,3,$26-50,9.8,3
+2024-08-23,Oncology,Aetna,PA - PA Required,Approved,9,$11-25,15.9,2
+2024-08-24,Antidiabetic,United,79 - Refill Too Soon,Reversed,0,$0-10,10.3,3
+2024-08-24,Dermatology,Cigna,70 - Product/Service Not Covered,Denied,0,$0-10,4.5,4
+2024-08-24,GI,United,70 - Product/Service Not Covered,Abandoned,2,$26-50,19.2,2
+2024-08-24,Antihypertensive,Humana,70 - Product/Service Not Covered,Cash,2,$51-100,5.3,1
+2024-08-25,Antidepressant,Cigna,01 - No Coverage,Denied,3,$0-10,17.7,3
+2024-08-26,Dermatology,Medicaid,79 - Refill Too Soon,Abandoned,2,$26-50,16.3,2
+2024-08-27,Antibiotic,Cigna,79 - Refill Too Soon,Filled,0,$11-25,13.6,2
+2024-08-27,Analgesic,Medicare,01 - No Coverage,Cash,0,$26-50,10.7,2
+2024-08-27,Antihypertensive,Cigna,75 - Prior Auth Required,Approved,4,$11-25,16.1,2
+2024-08-28,Antidepressant,Other,70 - Product/Service Not Covered,Denied,2,>$100,12.9,4
+2024-08-28,Statin,United,01 - No Coverage,Denied,4,$26-50,9.1,3
+2024-08-29,Statin,Other,88 - DUR Reject,Filled,1,$51-100,10.8,2
+2024-08-29,GI,Medicare,79 - Refill Too Soon,Reversed,1,$0-10,15.8,3
+2024-08-29,Antidepressant,Aetna,79 - Refill Too Soon,Filled,1,$11-25,11.5,2
+2024-08-30,Antihypertensive,United,70 - Product/Service Not Covered,Denied,0,>$100,17.6,3
+2024-08-30,Statin,Other,PA - PA Required,Approved,14,$0-10,18.3,1
+2024-08-31,Statin,Other,79 - Refill Too Soon,Filled,1,$26-50,8.0,2
+2024-09-01,Dermatology,Medicare,75 - Prior Auth Required,Approved,10,$11-25,11.4,2
+2024-09-01,Dermatology,Aetna,76 - Plan Limits Exceeded,Filled,1,$11-25,9.9,1
+2024-09-01,Analgesic,Aetna,PA - PA Required,Denied,11,$11-25,15.9,3
+2024-09-02,Oncology,Other,75 - Prior Auth Required,Approved,10,$0-10,16.7,3
+2024-09-03,Analgesic,Medicaid,PA - PA Required,Approved,3,$0-10,8.1,1
+2024-09-03,Antihypertensive,Aetna,01 - No Coverage,Cash,3,$26-50,10.7,2
+2024-09-03,Dermatology,Humana,76 - Plan Limits Exceeded,Reversed,1,$26-50,9.9,4
+2024-09-04,GI,United,MR - Missing/Invalid Data,Reversed,3,$26-50,10.1,4
+2024-09-05,GI,Other,75 - Prior Auth Required,Approved,10,$0-10,14.1,2
+2024-09-05,Statin,Humana,01 - No Coverage,Denied,2,$51-100,21.2,2
+2024-09-05,Oncology,BCBS,88 - DUR Reject,Filled,1,$26-50,10.0,3
+2024-09-06,Antidepressant,Medicaid,79 - Refill Too Soon,Filled,0,$11-25,14.4,2
+2024-09-06,Statin,Cigna,70 - Product/Service Not Covered,Denied,1,$26-50,12.4,3
+2024-09-06,Antidiabetic,Aetna,79 - Refill Too Soon,Abandoned,2,$26-50,15.1,2
+2024-09-07,Antibiotic,Other,01 - No Coverage,Cash,1,$26-50,13.7,1
+2024-09-07,Antibiotic,Cigna,88 - DUR Reject,Filled,0,$11-25,7.4,2
+2024-09-07,Statin,Cigna,PA - PA Required,Denied,11,$0-10,5.3,4
+2024-09-07,Antidepressant,Aetna,MR - Missing/Invalid Data,Abandoned,1,$11-25,8.3,1
+2024-09-08,Oncology,Cigna,01 - No Coverage,Denied,1,$0-10,8.5,3
+2024-09-08,GI,Medicaid,79 - Refill Too Soon,Filled,2,$11-25,6.5,1
+2024-09-09,Antidiabetic,Aetna,01 - No Coverage,Denied,1,$51-100,25.6,3
+2024-09-09,Dermatology,Other,70 - Product/Service Not Covered,Cash,1,$11-25,14.0,3
+2024-09-09,Oncology,Humana,70 - Product/Service Not Covered,Cash,4,$11-25,7.6,3
+2024-09-09,Dermatology,Medicare,01 - No Coverage,Denied,2,$11-25,17.4,3
+2024-09-10,Antihypertensive,Cigna,PA - PA Required,Approved,7,>$100,10.2,1
+2024-09-10,Oncology,Aetna,70 - Product/Service Not Covered,Cash,4,$11-25,17.3,3
+2024-09-10,Antidepressant,Aetna,01 - No Coverage,Denied,2,>$100,8.6,3
+2024-09-10,Oncology,BCBS,88 - DUR Reject,Reversed,0,$11-25,15.5,2
+2024-09-11,Antidepressant,BCBS,70 - Product/Service Not Covered,Denied,2,$26-50,6.0,2
+2024-09-11,Antihypertensive,United,MR - Missing/Invalid Data,Filled,2,$11-25,13.5,2
+2024-09-11,Antidiabetic,Humana,70 - Product/Service Not Covered,Denied,4,$11-25,22.1,2
+2024-09-12,Dermatology,Other,76 - Plan Limits Exceeded,Filled,0,$0-10,8.5,1
+2024-09-12,Asthma,Medicaid,88 - DUR Reject,Abandoned,0,$51-100,7.3,1
+2024-09-12,GI,United,75 - Prior Auth Required,Approved,3,$51-100,12.1,3
+2024-09-12,Asthma,Humana,75 - Prior Auth Required,Denied,7,$51-100,11.5,2
+2024-09-12,Analgesic,BCBS,PA - PA Required,Denied,8,$11-25,7.1,3
+2024-09-12,Antidepressant,Medicaid,70 - Product/Service Not Covered,Denied,3,$51-100,11.0,4
+2024-09-13,Antidepressant,Aetna,79 - Refill Too Soon,Reversed,0,$11-25,4.9,4
+2024-09-14,Antibiotic,Cigna,76 - Plan Limits Exceeded,Filled,1,$11-25,21.5,3
+2024-09-14,Antihypertensive,United,70 - Product/Service Not Covered,Cash,4,$11-25,8.1,3
+2024-09-14,Antibiotic,Cigna,MR - Missing/Invalid Data,Filled,0,$11-25,10.7,1
+2024-09-14,Antidiabetic,Other,88 - DUR Reject,Filled,1,$0-10,14.8,2
+2024-09-15,Asthma,Other,01 - No Coverage,Cash,3,$11-25,9.4,1
+2024-09-15,Asthma,United,MR - Missing/Invalid Data,Filled,0,$51-100,5.4,1
+2024-09-15,GI,Cigna,79 - Refill Too Soon,Filled,0,$26-50,13.9,3
+2024-09-15,Analgesic,Medicare,MR - Missing/Invalid Data,Filled,3,$11-25,13.3,3
+2024-09-16,Analgesic,Medicare,75 - Prior Auth Required,Denied,10,$0-10,10.2,3
+2024-09-16,Dermatology,Aetna,MR - Missing/Invalid Data,Abandoned,1,$26-50,13.4,1
+2024-09-16,Statin,Medicare,75 - Prior Auth Required,Approved,9,$11-25,10.5,2
+2024-09-16,Antibiotic,Other,01 - No Coverage,Denied,2,>$100,11.5,3
+2024-09-16,Statin,Other,PA - PA Required,Denied,6,$0-10,13.7,3
+2024-09-16,Antibiotic,Medicare,70 - Product/Service Not Covered,Cash,3,$26-50,5.4,2
+2024-09-17,Dermatology,Other,PA - PA Required,Approved,2,$11-25,6.8,3
+2024-09-17,Antidiabetic,Medicaid,76 - Plan Limits Exceeded,Reversed,0,$0-10,7.6,4
+2024-09-17,Antidepressant,Other,76 - Plan Limits Exceeded,Filled,2,$26-50,11.6,2
+2024-09-18,Analgesic,United,PA - PA Required,Approved,6,$11-25,3.5,1
+2024-09-19,Oncology,Other,79 - Refill Too Soon,Abandoned,1,$51-100,10.8,2
+2024-09-19,Asthma,Cigna,79 - Refill Too Soon,Reversed,0,$26-50,13.7,2
+2024-09-19,Analgesic,BCBS,MR - Missing/Invalid Data,Abandoned,3,$51-100,11.9,2
+2024-09-20,Antibiotic,Other,75 - Prior Auth Required,Approved,7,$26-50,7.7,1
+2024-09-20,Antihypertensive,Cigna,75 - Prior Auth Required,Approved,4,$51-100,4.0,3
+2024-09-20,Oncology,United,01 - No Coverage,Cash,4,$51-100,9.5,3
+2024-09-21,Analgesic,Medicare,01 - No Coverage,Denied,3,$11-25,15.1,3
+2024-09-21,Antidepressant,Medicare,01 - No Coverage,Denied,3,$51-100,20.0,2
+2024-09-22,GI,United,79 - Refill Too Soon,Filled,2,$51-100,9.7,1
+2024-09-22,Statin,Medicare,70 - Product/Service Not Covered,Denied,2,$26-50,3.8,4
+2024-09-23,Asthma,Medicaid,76 - Plan Limits Exceeded,Reversed,0,$26-50,9.4,4
+2024-09-23,Oncology,Aetna,PA - PA Required,Denied,10,$51-100,13.7,4
+2024-09-23,Antidiabetic,United,75 - Prior Auth Required,Approved,3,$11-25,16.4,2
+2024-09-23,Analgesic,Aetna,88 - DUR Reject,Filled,1,$11-25,19.3,1
+2024-09-23,Antidepressant,Medicare,88 - DUR Reject,Reversed,2,$11-25,12.8,4
+2024-09-23,Statin,Cigna,PA - PA Required,Denied,14,$0-10,10.1,2
+2024-09-24,Asthma,Other,88 - DUR Reject,Filled,2,$0-10,17.2,3
+2024-09-24,Antidiabetic,Cigna,70 - Product/Service Not Covered,Denied,4,>$100,11.5,2
+2024-09-25,Antidepressant,Medicare,75 - Prior Auth Required,Approved,4,$51-100,16.8,2
+2024-09-25,Statin,Humana,79 - Refill Too Soon,Filled,1,$26-50,10.3,2
+2024-09-26,Antidiabetic,Cigna,76 - Plan Limits Exceeded,Reversed,0,$11-25,14.1,2
+2024-09-26,Asthma,Medicare,01 - No Coverage,Denied,2,$26-50,13.8,3
+2024-09-26,Antibiotic,BCBS,70 - Product/Service Not Covered,Denied,4,$11-25,2.6,2
+2024-09-26,Dermatology,Cigna,70 - Product/Service Not Covered,Denied,3,$11-25,6.9,2
+2024-09-27,Antibiotic,BCBS,01 - No Coverage,Denied,1,$11-25,4.4,2
+2024-09-27,Antidepressant,Medicare,MR - Missing/Invalid Data,Reversed,2,$11-25,12.8,3
+2024-09-28,Antihypertensive,Medicare,70 - Product/Service Not Covered,Denied,0,>$100,8.0,3
+2024-09-28,Antibiotic,Cigna,01 - No Coverage,Cash,3,$26-50,8.2,3
+2024-09-30,Antibiotic,Cigna,70 - Product/Service Not Covered,Cash,1,$51-100,11.2,2
+2024-09-30,Antidepressant,Other,75 - Prior Auth Required,Approved,11,$0-10,11.8,1
+2024-09-30,Analgesic,Medicaid,76 - Plan Limits Exceeded,Filled,0,$11-25,9.9,2
+2024-09-30,Analgesic,Cigna,01 - No Coverage,Denied,3,$51-100,20.7,2
+2024-10-01,Antihypertensive,Humana,70 - Product/Service Not Covered,Cash,4,>$100,8.6,3
+2024-10-01,Asthma,Medicaid,MR - Missing/Invalid Data,Abandoned,3,$51-100,6.0,2
+2024-10-02,Dermatology,Humana,76 - Plan Limits Exceeded,Filled,3,$0-10,8.9,2
+2024-10-02,Antihypertensive,Medicare,76 - Plan Limits Exceeded,Reversed,3,$26-50,10.8,4
+2024-10-02,Antidiabetic,Cigna,88 - DUR Reject,Abandoned,3,$26-50,7.6,2
+2024-10-02,Analgesic,Medicaid,88 - DUR Reject,Reversed,0,>$100,17.6,3
+2024-10-04,Analgesic,United,76 - Plan Limits Exceeded,Filled,1,$26-50,16.5,2
+2024-10-04,Antihypertensive,Other,75 - Prior Auth Required,Approved,12,$0-10,12.3,1
+2024-10-05,Dermatology,Other,01 - No Coverage,Denied,4,$11-25,12.7,2
+2024-10-05,Antibiotic,Medicaid,PA - PA Required,Denied,11,$26-50,8.3,2
+2024-10-05,Antibiotic,Other,70 - Product/Service Not Covered,Cash,3,$11-25,16.4,2
+2024-10-05,Statin,United,MR - Missing/Invalid Data,Filled,3,$0-10,7.8,3
+2024-10-05,Analgesic,Aetna,PA - PA Required,Approved,7,$51-100,10.7,2
+2024-10-06,Statin,Medicare,79 - Refill Too Soon,Abandoned,0,$11-25,5.2,1
+2024-10-06,Statin,United,79 - Refill Too Soon,Reversed,0,$26-50,9.5,4
+2024-10-06,Antidiabetic,BCBS,01 - No Coverage,Denied,0,$11-25,15.8,4
+2024-10-07,Antidepressant,Humana,70 - Product/Service Not Covered,Cash,2,$26-50,13.9,3
+2024-10-07,Antihypertensive,Other,75 - Prior Auth Required,Approved,13,$26-50,12.9,2
+2024-10-07,GI,Medicare,79 - Refill Too Soon,Reversed,0,>$100,13.1,2
+2024-10-08,Antidepressant,Medicaid,PA - PA Required,Approved,6,$11-25,11.4,3
+2024-10-08,Antibiotic,Other,79 - Refill Too Soon,Reversed,0,>$100,8.9,3
+2024-10-08,Dermatology,Cigna,88 - DUR Reject,Filled,2,$26-50,12.3,2
+2024-10-08,Analgesic,Medicaid,75 - Prior Auth Required,Denied,5,$26-50,10.5,2
+2024-10-08,Antidepressant,Medicaid,75 - Prior Auth Required,Denied,13,$11-25,12.3,3
+2024-10-08,Analgesic,Medicaid,01 - No Coverage,Denied,3,$0-10,17.0,2
+2024-10-09,Antidepressant,BCBS,75 - Prior Auth Required,Approved,7,$11-25,8.1,2
+2024-10-09,Analgesic,Other,MR - Missing/Invalid Data,Filled,3,$11-25,12.9,2
+2024-10-10,Antihypertensive,BCBS,70 - Product/Service Not Covered,Denied,2,$11-25,9.9,3
+2024-10-10,GI,BCBS,PA - PA Required,Denied,12,$51-100,13.5,2
+2024-10-10,Dermatology,United,79 - Refill Too Soon,Reversed,2,$11-25,10.4,2
+2024-10-10,Antihypertensive,Cigna,88 - DUR Reject,Filled,2,$26-50,16.0,2
+2024-10-11,Oncology,United,70 - Product/Service Not Covered,Denied,0,$26-50,5.6,2
+2024-10-11,Oncology,Aetna,70 - Product/Service Not Covered,Denied,1,$0-10,11.6,3
+2024-10-11,Antihypertensive,BCBS,88 - DUR Reject,Filled,1,$51-100,10.6,1
+2024-10-12,Analgesic,Medicaid,79 - Refill Too Soon,Reversed,2,>$100,15.3,2
+2024-10-12,Dermatology,Medicare,PA - PA Required,Denied,11,$11-25,6.3,2
+2024-10-12,Dermatology,Cigna,70 - Product/Service Not Covered,Abandoned,1,$26-50,11.1,2
+2024-10-12,Statin,Humana,79 - Refill Too Soon,Filled,0,$26-50,8.4,3
+2024-10-13,Antihypertensive,Medicaid,MR - Missing/Invalid Data,Filled,1,$26-50,13.2,2
+2024-10-13,GI,Other,PA - PA Required,Approved,9,$0-10,12.2,2
+2024-10-13,Dermatology,Cigna,70 - Product/Service Not Covered,Denied,2,$11-25,12.7,4
+2024-10-13,Antidepressant,Cigna,MR - Missing/Invalid Data,Filled,0,$11-25,12.3,2
+2024-10-14,Dermatology,BCBS,PA - PA Required,Approved,11,$11-25,14.7,3
+2024-10-14,Antidiabetic,BCBS,PA - PA Required,Denied,5,>$100,10.0,3
+2024-10-14,Asthma,Medicare,70 - Product/Service Not Covered,Cash,3,$51-100,12.2,1
+2024-10-14,Antibiotic,Medicaid,01 - No Coverage,Denied,3,$26-50,13.4,2
+2024-10-14,Antibiotic,Cigna,70 - Product/Service Not Covered,Denied,1,>$100,15.4,2
+2024-10-14,Antidiabetic,Cigna,70 - Product/Service Not Covered,Cash,4,$51-100,16.7,2
+2024-10-15,Antibiotic,BCBS,01 - No Coverage,Denied,4,>$100,21.1,3
+2024-10-15,Analgesic,Aetna,MR - Missing/Invalid Data,Reversed,0,$26-50,14.0,3
+2024-10-16,Antibiotic,Other,01 - No Coverage,Abandoned,1,$26-50,8.5,2
+2024-10-16,Dermatology,Humana,75 - Prior Auth Required,Approved,14,$51-100,11.2,3
+2024-10-17,Antibiotic,Medicare,MR - Missing/Invalid Data,Filled,2,$11-25,9.0,2
+2024-10-17,Antibiotic,United,MR - Missing/Invalid Data,Abandoned,1,$26-50,15.7,2
+2024-10-17,Antihypertensive,Cigna,PA - PA Required,Abandoned,9,$0-10,10.5,2
+2024-10-17,GI,Medicare,01 - No Coverage,Denied,3,$0-10,20.1,3
+2024-10-18,Analgesic,Other,79 - Refill Too Soon,Filled,2,$11-25,11.3,2
+2024-10-18,Antidepressant,BCBS,88 - DUR Reject,Filled,2,$11-25,11.1,3
+2024-10-18,Antibiotic,United,70 - Product/Service Not Covered,Abandoned,0,$11-25,3.4,1
+2024-10-18,Dermatology,Other,70 - Product/Service Not Covered,Denied,4,$26-50,10.0,4
+2024-10-19,Dermatology,United,MR - Missing/Invalid Data,Filled,2,$11-25,10.6,2
+2024-10-19,Antidepressant,Cigna,76 - Plan Limits Exceeded,Abandoned,1,$11-25,10.8,2
+2024-10-19,Dermatology,United,79 - Refill Too Soon,Filled,0,>$100,8.4,1
+2024-10-19,GI,Medicare,70 - Product/Service Not Covered,Denied,2,$26-50,15.5,3
+2024-10-20,Analgesic,Other,76 - Plan Limits Exceeded,Filled,0,$11-25,13.3,1
+2024-10-20,Antidepressant,Medicare,75 - Prior Auth Required,Abandoned,6,$11-25,20.8,2
+2024-10-21,Asthma,Other,79 - Refill Too Soon,Reversed,1,$51-100,2.4,3
+2024-10-21,Antidepressant,Medicaid,70 - Product/Service Not Covered,Abandoned,4,$11-25,11.9,2
+2024-10-21,Asthma,Medicaid,01 - No Coverage,Abandoned,1,$0-10,5.9,2
+2024-10-21,Statin,Cigna,PA - PA Required,Denied,10,$11-25,14.5,3
+2024-10-22,Statin,Cigna,79 - Refill Too Soon,Reversed,1,>$100,17.4,2
+2024-10-22,GI,United,01 - No Coverage,Denied,2,$26-50,5.5,2
+2024-10-23,GI,BCBS,79 - Refill Too Soon,Reversed,2,$26-50,7.4,3
+2024-10-24,Statin,Humana,75 - Prior Auth Required,Abandoned,10,$26-50,14.0,2
+2024-10-24,Antibiotic,United,75 - Prior Auth Required,Abandoned,4,$11-25,8.5,1
+2024-10-25,GI,Aetna,70 - Product/Service Not Covered,Denied,1,$0-10,14.5,3
+2024-10-25,GI,Humana,75 - Prior Auth Required,Denied,12,$26-50,13.9,3
+2024-10-25,Statin,Humana,70 - Product/Service Not Covered,Denied,4,$11-25,17.7,4
+2024-10-25,Antibiotic,Other,76 - Plan Limits Exceeded,Filled,3,$0-10,15.9,3
+2024-10-25,Dermatology,Humana,PA - PA Required,Denied,5,$0-10,7.8,4
+2024-10-25,Antibiotic,United,75 - Prior Auth Required,Approved,14,$11-25,4.6,1
+2024-10-26,Antidiabetic,Aetna,76 - Plan Limits Exceeded,Reversed,2,$26-50,13.2,4
+2024-10-26,Antibiotic,Cigna,75 - Prior Auth Required,Approved,6,$51-100,7.7,2
+2024-10-26,Antidiabetic,Medicare,PA - PA Required,Approved,2,$26-50,9.8,1
+2024-10-26,Oncology,Aetna,01 - No Coverage,Denied,4,$11-25,14.0,3
+2024-10-26,Oncology,Medicare,01 - No Coverage,Cash,3,$26-50,11.5,2
+2024-10-28,GI,Cigna,01 - No Coverage,Cash,0,$51-100,13.5,3
+2024-10-28,Asthma,Aetna,01 - No Coverage,Denied,2,$11-25,12.6,4
+2024-10-29,Asthma,Aetna,79 - Refill Too Soon,Reversed,2,$26-50,4.4,4
+2024-10-29,Antibiotic,Medicaid,01 - No Coverage,Cash,4,>$100,8.0,2
+2024-10-29,Antihypertensive,Medicare,79 - Refill Too Soon,Reversed,2,$26-50,12.5,2
+2024-10-30,Dermatology,United,MR - Missing/Invalid Data,Reversed,3,>$100,13.8,4
+2024-10-30,Antidiabetic,Cigna,01 - No Coverage,Denied,1,$0-10,9.4,3
+2024-10-31,Antidiabetic,BCBS,88 - DUR Reject,Reversed,2,$51-100,7.1,4
+2024-10-31,Asthma,Medicaid,79 - Refill Too Soon,Reversed,1,$11-25,6.1,3
+2024-10-31,GI,Cigna,70 - Product/Service Not Covered,Denied,3,$0-10,8.0,3
+2024-10-31,Antibiotic,Medicaid,01 - No Coverage,Cash,3,$11-25,11.2,3
+2024-11-01,Antidiabetic,Medicare,75 - Prior Auth Required,Abandoned,10,$11-25,3.0,1
+2024-11-01,Analgesic,Cigna,01 - No Coverage,Denied,2,$0-10,16.9,3
+2024-11-02,Oncology,Medicaid,79 - Refill Too Soon,Reversed,0,$26-50,16.0,3
+2024-11-03,Antidepressant,Medicaid,MR - Missing/Invalid Data,Filled,1,$0-10,18.3,2
+2024-11-04,Antihypertensive,Medicaid,79 - Refill Too Soon,Filled,1,$11-25,8.7,1
+2024-11-04,Statin,Other,75 - Prior Auth Required,Abandoned,7,$11-25,10.4,1
+2024-11-04,Statin,Humana,70 - Product/Service Not Covered,Denied,0,$0-10,14.2,3
+2024-11-04,Analgesic,Cigna,01 - No Coverage,Denied,2,$26-50,14.9,2
+2024-11-04,Oncology,BCBS,MR - Missing/Invalid Data,Abandoned,2,$26-50,17.8,2
+2024-11-05,Antihypertensive,BCBS,79 - Refill Too Soon,Reversed,1,$26-50,18.2,2
+2024-11-05,Antidiabetic,Humana,76 - Plan Limits Exceeded,Abandoned,3,$26-50,12.5,1
+2024-11-05,Antibiotic,United,76 - Plan Limits Exceeded,Filled,2,$11-25,8.6,1
+2024-11-06,Antidiabetic,BCBS,PA - PA Required,Approved,8,$51-100,14.3,1
+2024-11-06,Antidiabetic,BCBS,01 - No Coverage,Denied,4,$0-10,11.4,4
+2024-11-07,Antihypertensive,Humana,70 - Product/Service Not Covered,Denied,4,$11-25,15.1,3
+2024-11-07,Statin,United,75 - Prior Auth Required,Approved,8,$0-10,20.8,2
+2024-11-07,Asthma,Aetna,75 - Prior Auth Required,Abandoned,13,$11-25,15.6,2
+2024-11-07,Analgesic,BCBS,MR - Missing/Invalid Data,Filled,2,>$100,7.0,2
+2024-11-07,Oncology,Aetna,01 - No Coverage,Cash,3,$26-50,10.5,2
+2024-11-08,Antidiabetic,Humana,MR - Missing/Invalid Data,Filled,0,$0-10,12.7,1
+2024-11-08,Antibiotic,United,PA - PA Required,Denied,3,$26-50,12.8,2
+2024-11-08,Dermatology,Medicaid,01 - No Coverage,Abandoned,2,>$100,11.2,2
+2024-11-09,Antidepressant,United,75 - Prior Auth Required,Denied,6,$26-50,9.0,4
+2024-11-09,Antibiotic,United,76 - Plan Limits Exceeded,Filled,3,$11-25,14.1,1
+2024-11-09,GI,BCBS,MR - Missing/Invalid Data,Reversed,1,$11-25,14.0,2
+2024-11-09,GI,Aetna,88 - DUR Reject,Filled,0,$51-100,12.1,3
+2024-11-09,Antibiotic,Cigna,88 - DUR Reject,Abandoned,0,$11-25,13.4,2
+2024-11-09,Antihypertensive,Medicare,70 - Product/Service Not Covered,Abandoned,3,$11-25,6.1,1
+2024-11-10,Antibiotic,BCBS,76 - Plan Limits Exceeded,Abandoned,0,>$100,14.4,1
+2024-11-10,Dermatology,Aetna,MR - Missing/Invalid Data,Reversed,2,$0-10,3.0,3
+2024-11-10,GI,Medicare,76 - Plan Limits Exceeded,Reversed,0,$11-25,17.6,4
+2024-11-10,Statin,United,75 - Prior Auth Required,Approved,14,$51-100,12.6,2
+2024-11-10,Asthma,Medicare,75 - Prior Auth Required,Abandoned,8,$0-10,5.2,1
+2024-11-10,Antibiotic,United,75 - Prior Auth Required,Denied,14,$0-10,11.6,2
+2024-11-10,Dermatology,BCBS,PA - PA Required,Approved,14,$51-100,12.9,3
+2024-11-10,Antibiotic,Aetna,01 - No Coverage,Denied,2,$11-25,16.7,4
+2024-11-10,Dermatology,Cigna,75 - Prior Auth Required,Abandoned,3,$51-100,16.1,2
+2024-11-10,Antidepressant,United,79 - Refill Too Soon,Reversed,1,$0-10,10.2,2
+2024-11-11,Analgesic,Humana,79 - Refill Too Soon,Filled,2,$51-100,17.5,3
+2024-11-12,Antidiabetic,Humana,MR - Missing/Invalid Data,Abandoned,1,$26-50,10.3,1
+2024-11-12,Antihypertensive,BCBS,01 - No Coverage,Cash,1,$11-25,12.1,2
+2024-11-12,Oncology,Medicaid,01 - No Coverage,Cash,3,$51-100,13.2,3
+2024-11-13,Antidiabetic,Medicare,MR - Missing/Invalid Data,Reversed,2,>$100,9.8,2
+2024-11-13,Antihypertensive,Humana,01 - No Coverage,Abandoned,1,$51-100,16.1,1
+2024-11-13,Oncology,Humana,01 - No Coverage,Cash,2,$51-100,14.2,3
+2024-11-13,Analgesic,United,79 - Refill Too Soon,Abandoned,1,$11-25,11.6,2
+2024-11-14,Antidepressant,Medicare,76 - Plan Limits Exceeded,Filled,2,$51-100,13.2,2
+2024-11-15,GI,Medicaid,75 - Prior Auth Required,Approved,6,$11-25,10.6,3
+2024-11-15,GI,BCBS,79 - Refill Too Soon,Reversed,2,$0-10,14.5,3
+2024-11-15,Antihypertensive,Other,76 - Plan Limits Exceeded,Reversed,3,$11-25,8.2,2
+2024-11-15,Antibiotic,BCBS,76 - Plan Limits Exceeded,Filled,0,$51-100,11.6,2
+2024-11-15,Antidiabetic,Cigna,88 - DUR Reject,Filled,3,$11-25,11.1,2
+2024-11-16,Oncology,Humana,76 - Plan Limits Exceeded,Filled,0,>$100,9.3,2
+2024-11-17,Antihypertensive,Cigna,88 - DUR Reject,Filled,2,$51-100,10.3,3
+2024-11-17,Antihypertensive,Aetna,79 - Refill Too Soon,Reversed,0,$11-25,14.5,4
+2024-11-18,Dermatology,Aetna,01 - No Coverage,Denied,1,$11-25,16.3,4
+2024-11-18,Oncology,Medicaid,75 - Prior Auth Required,Denied,13,$51-100,12.6,3
+2024-11-18,Asthma,Cigna,79 - Refill Too Soon,Reversed,1,$26-50,8.2,3
+2024-11-19,Oncology,Other,PA - PA Required,Abandoned,5,$26-50,15.7,1
+2024-11-20,Antibiotic,Cigna,75 - Prior Auth Required,Denied,10,$0-10,7.9,3
+2024-11-20,Statin,Medicare,70 - Product/Service Not Covered,Denied,1,$11-25,16.2,4
+2024-11-21,Oncology,United,76 - Plan Limits Exceeded,Reversed,2,$26-50,18.0,3
+2024-11-21,Dermatology,United,88 - DUR Reject,Filled,1,$0-10,15.0,2
+2024-11-21,Antidepressant,Cigna,PA - PA Required,Approved,8,$51-100,10.6,2
+2024-11-21,Oncology,Cigna,MR - Missing/Invalid Data,Abandoned,3,$0-10,16.8,1
+2024-11-21,Dermatology,Cigna,75 - Prior Auth Required,Approved,2,$26-50,15.7,1
+2024-11-22,Analgesic,United,PA - PA Required,Approved,8,$26-50,19.4,3
+2024-11-22,Analgesic,Other,MR - Missing/Invalid Data,Filled,0,$26-50,12.4,3
+2024-11-22,Statin,Aetna,79 - Refill Too Soon,Reversed,1,$0-10,14.7,2
+2024-11-23,Antidiabetic,Aetna,PA - PA Required,Approved,4,$26-50,8.2,1
+2024-11-23,Asthma,BCBS,76 - Plan Limits Exceeded,Filled,3,$51-100,8.0,1
+2024-11-23,Antibiotic,Other,01 - No Coverage,Cash,2,$11-25,17.1,3
+2024-11-23,Oncology,Medicaid,70 - Product/Service Not Covered,Abandoned,4,$51-100,12.9,1
+2024-11-23,Antidepressant,Other,79 - Refill Too Soon,Reversed,2,$0-10,11.9,2
+2024-11-23,Statin,Cigna,75 - Prior Auth Required,Denied,13,$26-50,13.2,3
+2024-11-24,Antihypertensive,Cigna,88 - DUR Reject,Filled,1,$11-25,5.4,3
+2024-11-24,Asthma,United,01 - No Coverage,Cash,4,$0-10,10.5,2
+2024-11-25,Antidiabetic,BCBS,MR - Missing/Invalid Data,Reversed,1,$0-10,6.3,2
+2024-11-25,Analgesic,Medicare,01 - No Coverage,Abandoned,3,$11-25,6.1,2
+2024-11-26,Asthma,Medicaid,01 - No Coverage,Denied,3,$11-25,15.7,4
+2024-11-26,Antihypertensive,Other,70 - Product/Service Not Covered,Cash,4,$51-100,4.9,3
+2024-11-27,Antidepressant,Aetna,01 - No Coverage,Abandoned,0,$11-25,13.7,2
+2024-11-27,Antihypertensive,BCBS,01 - No Coverage,Denied,1,$51-100,13.9,4
+2024-11-27,Dermatology,Medicare,70 - Product/Service Not Covered,Cash,2,$26-50,7.2,1
+2024-11-27,Dermatology,Cigna,88 - DUR Reject,Reversed,1,>$100,12.1,3
+2024-11-27,Analgesic,Aetna,70 - Product/Service Not Covered,Cash,2,$11-25,3.6,3
+2024-11-28,Antihypertensive,Aetna,75 - Prior Auth Required,Approved,13,$51-100,13.3,2
+2024-11-28,Antihypertensive,Medicaid,PA - PA Required,Denied,10,$11-25,11.0,4
+2024-11-28,Antidiabetic,BCBS,88 - DUR Reject,Filled,3,$11-25,10.1,1
+2024-11-29,Oncology,BCBS,70 - Product/Service Not Covered,Cash,3,>$100,9.5,2
+2024-11-29,Statin,Medicaid,MR - Missing/Invalid Data,Filled,0,$11-25,14.8,3
+2024-12-01,Antidepressant,Other,76 - Plan Limits Exceeded,Reversed,3,$51-100,18.8,4
+2024-12-01,Antihypertensive,Cigna,76 - Plan Limits Exceeded,Abandoned,2,$26-50,10.7,2
+2024-12-01,Antidiabetic,Cigna,79 - Refill Too Soon,Reversed,0,$26-50,7.7,2
+2024-12-01,Analgesic,Humana,70 - Product/Service Not Covered,Cash,0,$51-100,5.9,3
+2024-12-02,Antidiabetic,Medicaid,79 - Refill Too Soon,Reversed,1,$51-100,15.2,3
+2024-12-02,Asthma,United,79 - Refill Too Soon,Filled,1,$51-100,16.8,2
+2024-12-02,Oncology,United,01 - No Coverage,Cash,3,>$100,15.0,3
+2024-12-03,Oncology,United,76 - Plan Limits Exceeded,Filled,2,$26-50,7.8,2
+2024-12-03,Dermatology,Medicare,70 - Product/Service Not Covered,Cash,4,$0-10,9.1,2
+2024-12-03,Dermatology,United,MR - Missing/Invalid Data,Filled,3,$51-100,20.0,2
+2024-12-04,Dermatology,United,MR - Missing/Invalid Data,Filled,1,>$100,10.4,1
+2024-12-04,Analgesic,BCBS,70 - Product/Service Not Covered,Denied,4,$26-50,10.7,2
+2024-12-04,Oncology,United,70 - Product/Service Not Covered,Cash,2,$0-10,11.3,1
+2024-12-05,Antibiotic,Humana,70 - Product/Service Not Covered,Denied,2,>$100,10.9,4
+2024-12-06,Asthma,United,MR - Missing/Invalid Data,Filled,0,$11-25,13.7,3
+2024-12-06,Statin,Humana,MR - Missing/Invalid Data,Reversed,0,$26-50,3.6,4
+2024-12-06,GI,Aetna,79 - Refill Too Soon,Filled,0,$11-25,12.8,3
+2024-12-07,Asthma,BCBS,01 - No Coverage,Denied,0,$26-50,14.2,4
+2024-12-07,Statin,Cigna,70 - Product/Service Not Covered,Denied,0,$0-10,10.0,3
+2024-12-07,Antihypertensive,Other,75 - Prior Auth Required,Approved,9,>$100,15.2,2
+2024-12-07,Antidepressant,Medicare,70 - Product/Service Not Covered,Abandoned,2,$11-25,15.7,2
+2024-12-07,Antidiabetic,Humana,01 - No Coverage,Denied,4,$0-10,18.9,3
+2024-12-08,Antidepressant,Humana,70 - Product/Service Not Covered,Denied,2,$11-25,20.5,2
+2024-12-08,Antidiabetic,Medicaid,79 - Refill Too Soon,Filled,2,$51-100,11.2,2
+2024-12-08,Antibiotic,Aetna,75 - Prior Auth Required,Denied,5,$0-10,10.7,2
+2024-12-08,Antidepressant,Medicare,01 - No Coverage,Cash,4,$0-10,6.1,2
+2024-12-09,Statin,Medicaid,76 - Plan Limits Exceeded,Abandoned,2,$26-50,10.9,2
+2024-12-09,Dermatology,Humana,76 - Plan Limits Exceeded,Abandoned,2,$11-25,10.2,1
+2024-12-09,Antidepressant,BCBS,01 - No Coverage,Abandoned,4,$0-10,13.7,2
+2024-12-09,Oncology,Medicaid,75 - Prior Auth Required,Approved,5,$51-100,8.7,2
+2024-12-09,Antidepressant,United,01 - No Coverage,Cash,4,$0-10,14.2,2
+2024-12-10,Oncology,BCBS,88 - DUR Reject,Abandoned,3,$0-10,11.7,2
+2024-12-10,GI,Humana,76 - Plan Limits Exceeded,Reversed,1,$11-25,5.4,2
+2024-12-10,Antibiotic,Cigna,79 - Refill Too Soon,Reversed,0,$26-50,8.2,3
+2024-12-10,Antihypertensive,Medicare,76 - Plan Limits Exceeded,Filled,2,$26-50,14.5,2
+2024-12-11,Dermatology,Medicare,01 - No Coverage,Cash,3,$51-100,13.0,1
+2024-12-11,Oncology,Medicare,75 - Prior Auth Required,Approved,5,$11-25,12.4,1
+2024-12-12,Asthma,Medicaid,79 - Refill Too Soon,Reversed,1,$26-50,6.3,4
+2024-12-12,Analgesic,Other,70 - Product/Service Not Covered,Denied,4,$11-25,22.6,3
+2024-12-12,Analgesic,BCBS,01 - No Coverage,Denied,3,$51-100,7.3,2
+2024-12-13,Dermatology,Medicaid,01 - No Coverage,Denied,2,$0-10,17.6,3
+2024-12-13,Analgesic,Medicare,PA - PA Required,Abandoned,3,$26-50,8.8,2
+2024-12-13,Antidepressant,United,79 - Refill Too Soon,Filled,2,$0-10,15.2,2
+2024-12-13,Antidepressant,United,75 - Prior Auth Required,Denied,14,$0-10,12.4,4
+2024-12-14,Asthma,Medicaid,01 - No Coverage,Denied,4,$11-25,14.6,2
+2024-12-15,Dermatology,BCBS,PA - PA Required,Approved,6,$11-25,8.9,2
+2024-12-15,Statin,Other,01 - No Coverage,Denied,3,$26-50,15.9,3
+2024-12-15,Statin,Other,PA - PA Required,Approved,5,$51-100,10.0,1
+2024-12-15,Antidepressant,Aetna,76 - Plan Limits Exceeded,Reversed,0,$0-10,7.5,2
+2024-12-16,Antihypertensive,United,76 - Plan Limits Exceeded,Filled,1,$26-50,8.2,1
+2024-12-16,Oncology,Other,70 - Product/Service Not Covered,Denied,4,$11-25,10.3,4
+2024-12-16,Analgesic,Humana,88 - DUR Reject,Filled,0,$26-50,16.2,3
+2024-12-17,Dermatology,BCBS,MR - Missing/Invalid Data,Reversed,2,$11-25,14.3,2
+2024-12-17,Statin,Medicare,PA - PA Required,Denied,6,$0-10,10.8,2
+2024-12-18,GI,Humana,76 - Plan Limits Exceeded,Filled,1,$11-25,13.9,2
+2024-12-18,Antidepressant,Medicare,70 - Product/Service Not Covered,Denied,1,$51-100,19.3,2
+2024-12-18,Antidiabetic,BCBS,79 - Refill Too Soon,Reversed,2,$51-100,18.3,2
+2024-12-18,Dermatology,United,76 - Plan Limits Exceeded,Abandoned,1,$26-50,9.8,1
+2024-12-19,Antihypertensive,Aetna,70 - Product/Service Not Covered,Denied,0,$11-25,10.1,4
+2024-12-19,Antidepressant,United,PA - PA Required,Abandoned,11,$26-50,9.9,2
+2024-12-20,Statin,BCBS,MR - Missing/Invalid Data,Filled,2,$11-25,12.4,3
+2024-12-20,Oncology,Medicaid,01 - No Coverage,Cash,0,$26-50,19.1,1
+2024-12-20,Antihypertensive,Humana,70 - Product/Service Not Covered,Denied,3,$11-25,9.3,2
+2024-12-21,Antihypertensive,Medicare,75 - Prior Auth Required,Approved,8,$11-25,14.0,2
+2024-12-21,Antidepressant,Other,01 - No Coverage,Denied,0,$51-100,13.0,3
+2024-12-21,Antibiotic,Medicaid,79 - Refill Too Soon,Filled,2,$26-50,15.9,1
+2024-12-21,Antibiotic,Aetna,MR - Missing/Invalid Data,Filled,3,$51-100,14.7,3
+2024-12-21,Antidepressant,Medicaid,88 - DUR Reject,Abandoned,1,>$100,12.4,2
+2024-12-22,Oncology,United,PA - PA Required,Approved,14,>$100,18.2,1
+2024-12-22,Antidepressant,Cigna,01 - No Coverage,Denied,1,$11-25,11.5,2
+2024-12-22,Asthma,Cigna,MR - Missing/Invalid Data,Filled,0,$51-100,9.6,1
+2024-12-22,Antihypertensive,Other,70 - Product/Service Not Covered,Denied,0,$11-25,13.1,4
+2024-12-22,Dermatology,Other,76 - Plan Limits Exceeded,Reversed,2,$0-10,11.7,3
+2024-12-23,Statin,United,MR - Missing/Invalid Data,Filled,0,>$100,13.1,1
+2024-12-23,Dermatology,Other,75 - Prior Auth Required,Approved,12,$11-25,8.9,3
+2024-12-23,Analgesic,Cigna,75 - Prior Auth Required,Denied,10,$26-50,6.8,3
+2024-12-23,GI,Cigna,75 - Prior Auth Required,Abandoned,5,$51-100,16.5,2
+2024-12-24,GI,Other,70 - Product/Service Not Covered,Denied,0,>$100,22.6,3
+2024-12-25,Analgesic,Medicaid,75 - Prior Auth Required,Approved,4,$26-50,10.2,3
+2024-12-25,Dermatology,Cigna,MR - Missing/Invalid Data,Filled,2,$0-10,8.4,2
+2024-12-25,Oncology,Other,76 - Plan Limits Exceeded,Abandoned,1,$11-25,5.1,1
+2024-12-26,Statin,Other,75 - Prior Auth Required,Approved,14,$26-50,7.9,2
+2024-12-26,Antidepressant,Cigna,01 - No Coverage,Denied,4,>$100,13.5,2
+2024-12-26,Asthma,Cigna,75 - Prior Auth Required,Approved,4,$26-50,4.2,2
+2024-12-26,Analgesic,Aetna,79 - Refill Too Soon,Reversed,1,$11-25,13.4,4
+2024-12-26,Analgesic,Medicaid,88 - DUR Reject,Filled,3,$26-50,11.0,2
+2024-12-27,Asthma,Medicare,01 - No Coverage,Cash,1,$11-25,16.6,3
+2024-12-27,Antibiotic,Other,PA - PA Required,Abandoned,14,$0-10,16.3,1
+2024-12-27,GI,Humana,79 - Refill Too Soon,Abandoned,2,$11-25,13.1,2
+2024-12-28,Asthma,United,75 - Prior Auth Required,Approved,14,$0-10,7.9,1
+2024-12-29,Antihypertensive,Aetna,70 - Product/Service Not Covered,Denied,0,$51-100,6.6,3
+2024-12-29,Antibiotic,BCBS,75 - Prior Auth Required,Approved,5,$11-25,13.6,3
+2024-12-30,Antihypertensive,Cigna,79 - Refill Too Soon,Filled,2,$11-25,13.9,3
+2024-12-31,Analgesic,Medicare,01 - No Coverage,Cash,3,$51-100,9.1,1
+2024-12-31,Antidiabetic,Medicaid,01 - No Coverage,Cash,3,$11-25,8.9,3
