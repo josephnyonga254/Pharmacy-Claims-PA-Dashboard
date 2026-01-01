@@ -36,6 +36,19 @@ Pharmacies lose time and revenue due to avoidable rejects (e.g., coverage, refil
 - Dashboard (Tableau / Power BI / Streamlit)
 - Final report (PDF): insights + recommendations
 
+## EDA Script
+Use the standalone script to generate three plots and a short insights summary.
+
+```bash
+python scripts/eda.py --data-path data/synthetic_claims.csv --output-dir outputs/eda
+```
+
+**Outputs**
+- `outputs/eda/rejection_rate_by_payer.png`
+- `outputs/eda/top_rejection_codes.png`
+- `outputs/eda/days_to_resolve_by_outcome.png`
+- `outputs/eda/insights.md`
+
 ## Tech Stack
 Python (pandas), SQL (optional), visualization (Tableau/Power BI/Streamlit)
 
