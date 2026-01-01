@@ -49,6 +49,18 @@ python scripts/eda.py --data-path data/synthetic_claims.csv --output-dir outputs
 - `outputs/eda/days_to_resolve_by_outcome.png`
 - `outputs/eda/insights.md`
 
+## Baseline Model (v1)
+Train a baseline classifier to predict whether a claim will be rejected.
+
+```bash
+python scripts/baseline_model.py --data-path data/synthetic_claims.csv --output-dir outputs/model_v1
+```
+
+**Outputs**
+- `outputs/model_v1/baseline_model_metrics.json`
+- `outputs/model_v1/baseline_model_metrics.md`
+- `outputs/model_v1/baseline_model_roc_curve.png`
+
 ## Tech Stack
 Python (pandas), SQL (optional), visualization (Tableau/Power BI/Streamlit)
 
